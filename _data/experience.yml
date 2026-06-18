@@ -2,12 +2,14 @@ work:
   - title: PhD Researcher
     organization: Group of Machine Learning Research (GMUM)
     org_url: https://gmum.net/
-    location: Jagiellonian University, Kraków, Poland
+    location: Kraków, Poland
     period: Oct 2024 – Present
     image: assets/img/experience/gmum.png
     highlights:
-      - Research on self-supervised learning, spatial intelligence in visual foundation models, and robotics.
-      - Supervised by Prof. Bartosz Zieliński at the Faculty of Mathematics and Computer Science.
+      - Conducting research on smarter visual representations for embodied artificial intelligence, with a focus on spatial awareness in visual foundation models.
+      - Designing computer vision pipelines for Eurasian lynx re-identification in collaboration with the Wildlife Research Ecology Team, Institute of Environmental Sciences.
+      - Developing semantic segmentation models to automate frog cell-size estimation for the Life History Evolution Group, Institute of Environmental Sciences.
+      - Coordinating GMUM's social media presence and outreach to promote the group's research and strengthen its international visibility.
 
   - title: Data Scientist
     organization: Poznań Supercomputing and Networking Center (PSNC)
@@ -16,47 +18,50 @@ work:
     period: Mar 2022 – Jan 2025
     image: assets/img/experience/PSNC.png
     highlights:
-      - Applied machine learning, statistical modeling, and time-series analytics in the ICT Energy Efficient Technologies Department.
-      - Anomaly detection and forecasting for energy consumption data.
-      - Contributed to the EU-funded RENergetic project and renewable energy system simulations.
+      - Applied machine learning, statistical modeling, and large-scale time-series analytics to research and innovation projects in the ICT Energy Efficient Technologies Department.
+      - Delivered anomaly detection, time-series forecasting, and simulation of renewable energy system configurations, including work on the EU-funded RENergetic project.
+      - Developed a replicable ML workflow for multi-site energy forecasting that integrates with energy management systems without requiring in-house ML expertise.
+      - Contributed to a recommendation-based Heat Demand Response (HDR) system that forecasts baseline consumption and proposes energy-saving measures when user-defined limits are exceeded.
 
   - title: Erasmus+ Internship
     organization: University of Catania
-    org_url: https://www.unict.it/en
+    org_url: https://www.dieei.unict.it/
     location: Catania, Italy
     period: Mar – Aug 2023
     image: assets/img/experience/UniCT.png
     highlights:
-      - Worked in the ROSys robotics group on the BIOBLU project.
-      - Improved object-picking algorithms with computer vision and AI methods.
-      - Developed and tested robotic control strategies in ROS and Gazebo for mobile robots and manipulators.
+      - Research internship in the DIEEI Robotic Systems (ROSys) group on the BIOBLU project, supervised by Prof. Giovanni Muscato and Prof. Dario Calogero Guastella.
+      - Built object detection and segmentation pipelines for robotic picking using YOLO, Mask R-CNN, and PCA-based methods with OpenCV, TensorFlow, and PyTorch.
+      - Designed and validated AI-driven manipulation and control strategies in ROS and Gazebo across mobile robots and industrial manipulators (UR10e, AUBO i5, Kuka youBot).
+      - Fine-tuned classification algorithms to improve picking accuracy and participated in the university robotics course as a guest student.
 
   - title: Erasmus+ Internship
     organization: Silesian University of Technology
     org_url: https://www.polsl.pl/en
     location: Gliwice, Poland
-    period: Nov 2020 – Feb 2021
+    period: Nov 2020 – Mar 2021
     image: assets/img/experience/silezya.png
     highlights:
-      - Project on methods of clustering single-cell RNA sequencing data.
-      - Analyzed breast cancer single-cell data using R and clustering workflows.
+      - 13-week research internship on clustering single-cell RNA sequencing data, supervised by Asst. Prof. Michał Marczyk.
+      - Performed end-to-end scRNA-seq analysis in R, including quality control, normalization, UMAP visualization, and dropClust clustering on breast cancer data.
+      - Tuned preprocessing and clustering parameters, ran differential expression analysis, and applied functional annotation to interpret cell populations.
 
   - title: Mandatory Internship & Graduation Project
     organization: Tescom UPS
     location: Izmir, Turkey
-    period: Aug 2019 – Jul 2020
+    period: Sep 2019 – Sep 2020
     image: assets/img/experience/tescom.png
     highlights:
-      - BSc graduation project on LLC resonant converter design for UPS battery charging (TÜBİTAK 2209-B, industry-supported by Tescom).
-      - Production internship across PCB layout, card testing, cabling, and device testing.
+      - Completed an industry-linked BSc thesis (TÜBİTAK 2209-B) on high-efficiency LLC resonant converter design for UPS battery charging and charge–discharge regression modeling, with industrial support from Tescom Elektronik A.Ş.
+      - Gained prior production experience at Tescom across PCB layout, in-circuit card testing, cabling, and final device testing.
 
-  - title: Working Student
-    organization: Deutz Service Group ASM Ex-Proof
-    location: Cologne, Germany
-    period: Dec 2019 – Feb 2020
+  - title: Part-Time Working Student Engineer
+    organization: Deutz Service Group ASM
+    location: Izmir, Turkey
+    period: Dec 2019 – Mar 2020
     image: assets/img/experience/asm.png
     highlights:
-      - Supported engineering work on Ex-Proof products for industrial motors, automotive, and machinery.
+      - Supported engineering development for Ex-Proof product lines serving industrial motors, automotive, and machinery applications.
 
   - title: Mandatory Internship
     organization: Elpro Energy
@@ -64,17 +69,25 @@ work:
     period: Aug – Sep 2019
     image: assets/img/experience/elpro.png
     highlights:
-      - Electrical installation design, bill-of-quantity preparation, material research, and AutoCAD drafting.
+      - Prepared bills of quantities and conducted market and price research for electrical installation materials.
+      - Assisted with electrical installation design and technical documentation using AutoCAD.
 
   - title: Optional Internship
     organization: Maselmak Engineering
-    location: Izmir, Turkey
+    location: Ankara, Turkey
     period: Jul – Aug 2017
     image: assets/img/experience/maselmak.jpg
     highlights:
-      - Electrical panel design (SEE Electrical), TIA Portal, and PLC programming.
+      - Designed electrical control panels using SEE Electrical.
+      - Developed PLC software in TIA Portal and supported PLC hardware design.
 
 volunteer:
+  - title: Volunteer Instructor
+    organization: Polish AI Olympiad (Olimpiada AI)
+    org_url: https://www.oai.edu.pl/english
+    image: assets/img/experience/olimpiadaai_logo.jpeg
+    description: Deliver classes for high school students on artificial intelligence and machine learning, and help prepare competition tasks for the International Olympiad in Artificial Intelligence (IOAI).
+
   - title: IEEE Student Branch
     organization: IEEE Izmir Katip Çelebi University
     image: assets/img/experience/ieee.jpeg

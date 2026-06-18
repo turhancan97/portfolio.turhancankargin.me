@@ -46,7 +46,13 @@ nav_order: 4
     </div>
     <div class="volunteer-card-body">
       <h3 class="volunteer-card-title">{{ item.title }}</h3>
-      <p class="volunteer-card-org">{{ item.organization }}</p>
+      <p class="volunteer-card-org">
+        {% if item.org_url %}
+        <a href="{{ item.org_url }}" target="_blank" rel="noopener noreferrer">{{ item.organization }}</a>
+        {% else %}
+        {{ item.organization }}
+        {% endif %}
+      </p>
       <p class="volunteer-card-text">{{ item.description }}</p>
     </div>
   </article>

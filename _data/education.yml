@@ -1,53 +1,55 @@
 degrees:
-  - period: 2024 – 2028
+  - period: Sep 2024 – Present
     institution: Jagiellonian University
     institution_url: https://www.uj.edu.pl/
-    degree: PhD, Technical Computer Science — Machine Learning
+    degree: PhD in Technical Computer Science
     image: assets/img/education/uj.png
     highlights:
-      - Faculty of Mathematics and Computer Science.
-      - "Supervisor: Prof. Bartosz Zieliński."
+      - Investigating methods to enhance spatial awareness of visual representations in self-supervised learning for embodied AI applications.
+      - Advised by Prof. Bartosz Zieliński (computer vision, deep learning, and interpretable ML).
+      - Doctoral School of Exact and Natural Sciences, Faculty of Mathematics and Computer Science, Kraków, Poland.
 
-  - period: 2021 – 2022
+  - period: Feb 2021 – Sep 2022
     institution: Poznań University of Technology
     institution_url: https://www.put.poznan.pl/
     degree: MSc, Automatic Control and Robotics
     image: assets/img/education/put.png
     logo_size: large
     highlights:
+      - Advised by Dr hab. inż. Jakub Bernat (robotics and reinforcement learning).
       - Specialization in Smart Aerospace and Autonomous Systems.
-      - GPA 4.75/5.
-      - PUT Rector Scholarship (awarded twice for academic success).
+      - GPA 4.75/5; awarded the PUT Rector Scholarship twice.
 
-  - period: 2015 – 2020
+  - period: Sep 2015 – Jul 2020
     institution: Izmir Katip Çelebi University
     institution_url: https://www.ikcu.edu.tr/
-    degree: BSc, Electrical & Electronics Engineering
+    degree: BSc, Electrical and Electronics Engineering
     image: assets/img/education/ikc.png
     logo_size: large
     highlights:
-      - GPA 3.57/4.
-      - Highest-ranked student in the department.
+      - Advised by Assoc. Prof. Şavaş Şahin (artificial intelligence and control theory).
+      - Highest-ranked student in the department; GPA 3.57/4.
 
-  - period: 2016 – 2021
-    institution: Anadolu University
-    institution_url: https://www.anadolu.edu.tr/
-    degree: BBA, Business Administration
-    image: assets/img/education/aof.png
-    logo_size: large
-    highlights:
-      - GPA 2.96/4.
-      - Certificate of Honour for the 2016–2017 academic year.
-
-  - period: 2018 – 2019
+  - period: Feb 2019 – Jul 2019
     institution: Poznań University of Technology
     institution_url: https://www.put.poznan.pl/
     degree: Erasmus+ Exchange, Electronics and Telecommunications Engineering
     image: assets/img/education/put.png
     logo_size: large
     highlights:
+      - One-semester Erasmus+ exchange during the third year of undergraduate studies at IKCU.
+      - Advised by Dr Eng. Jan Lamperski (information technology in telecommunications).
       - Final average grade 4.53/5.
-      - One-semester exchange during undergraduate studies at IKCU.
+
+  - period: Sep 2016 – Jul 2020
+    institution: Anadolu University
+    institution_url: https://www.anadolu.edu.tr/
+    degree: BBA, Business Administration
+    image: assets/img/education/aof.png
+    logo_size: large
+    highlights:
+      - Second degree in economics and business, completed in parallel with engineering studies.
+      - GPA 2.96/4; Certificate of Honour for the 2016–2017 academic year.
 
 moocs:
   - title: MATLAB Programming for Engineers and Scientists Specialization
