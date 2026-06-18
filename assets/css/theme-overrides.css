@@ -264,6 +264,11 @@ html[data-theme="dark"] .projects .project-item:hover .card.hoverable {
   margin-top: 0.35rem;
 }
 
+.awards-list,
+.service-list {
+  margin: 1.25rem 0 2.5rem;
+}
+
 .volunteer-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
@@ -319,6 +324,12 @@ html[data-theme="dark"] .projects .project-item:hover .card.hoverable {
   font-size: 0.9rem;
   color: color-mix(in srgb, var(--global-text-color, #212529) 75%, transparent);
   margin-bottom: 0.55rem;
+}
+
+.volunteer-card-period {
+  font-weight: 600;
+  color: var(--global-theme-color);
+  font-size: 0.85rem;
 }
 
 .volunteer-card-text {
@@ -497,4 +508,35 @@ html[data-theme="dark"] .education-entry-media {
   line-height: 1.45;
   text-align: center;
   font-weight: 600;
+}
+
+/* Hugging Face custom social: match monochrome font icons and baseline alignment. */
+.contact-icons a[href*="huggingface.co"] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  color: inherit;
+}
+
+.contact-icons a[href*="huggingface.co"] img {
+  width: 1em;
+  height: 1em;
+  margin: 0;
+  padding: 0;
+  display: block;
+  object-fit: contain;
+  filter: brightness(0);
+}
+
+.contact-icons a[href*="huggingface.co"]:hover img {
+  filter: brightness(0) opacity(0.75);
+}
+
+html[data-theme="dark"] .contact-icons a[href*="huggingface.co"] img {
+  filter: brightness(0) invert(1);
+}
+
+html[data-theme="dark"] .contact-icons a[href*="huggingface.co"]:hover img {
+  filter: brightness(0) invert(1) opacity(0.75);
 }

@@ -81,44 +81,82 @@ work:
       - Designed electrical control panels using SEE Electrical.
       - Developed PLC software in TIA Portal and supported PLC hardware design.
 
+organizing:
+  - date_sort: 2026-06
+    date: Jun 29 – Jul 3, 2026
+    role: Organizing Team
+    title: "MLSSR&S 2026: Machine Learning Summer School on Reliability & Safety"
+    url: https://mlss2026.mlinpl.org/
+    location: Kraków, Poland
+
+  - date_sort: 2025-06
+    date: Jun 2025
+    role: Volunteer Organizer
+    title: "MLSSD 2025: Machine Learning Summer School on Drug and Materials Discovery"
+    url: https://mlss2025.mlinpl.org/
+    location: Kraków, Poland
+
 volunteer:
   - title: Volunteer Instructor
     organization: Polish AI Olympiad (Olimpiada AI)
     org_url: https://www.oai.edu.pl/english
+    period: Present
+    category: outreach
     image: assets/img/experience/olimpiadaai_logo.jpeg
     description: Deliver classes for high school students on artificial intelligence and machine learning, and help prepare competition tasks for the International Olympiad in Artificial Intelligence (IOAI).
 
-  - title: IEEE Student Branch
+  - title: Global Core Member & Mentor
+    organization: Global AI Hub
+    org_url: https://globalaihub.com/
+    period: Jan 2022 – Present
+    category: outreach
+    image: assets/img/experience/gaih.jpg
+    description: Mentor in a non-profit AI education community and contribute to course development and learner support.
+
+  - title: IEEE Student Branch Treasurer
     organization: IEEE Izmir Katip Çelebi University
+    org_url: https://studentbranches.ieee.org/tr-ikcu/
+    period: Sep 2018 – Jul 2020
+    category: student-organization
     image: assets/img/experience/ieee.jpeg
     description: Treasurer of the student branch, responsible for financial control and reporting.
 
-  - title: IEEE Power & Energy Society
+  - title: IEEE Power & Energy Society Vice-Chair
     organization: IEEE Izmir Katip Çelebi University
+    org_url: https://ieee-pes.org/
+    period: Sep 2018 – Jul 2020
+    category: student-organization
     image: assets/img/experience/pes.jpg
     description: Vice-Chair supporting branch leadership and society activities.
 
-  - title: IOT Turkey
-    organization: ioturkiye.com
-    image: assets/img/experience/iot.png
-    description: Editor contributing technical content on IoT topics.
-
   - title: CybAiR Science Club
     organization: Poznań University of Technology
+    org_url: https://www.facebook.com/CybAiR/
+    period: Sep 2022 – Jan 2025
+    category: student-organization
     image: assets/img/experience/cybair.png
     description: Member of a robotics and automation student club working on hands-on engineering projects.
 
-  - title: Global AI Hub
-    organization: Global AI Hub
-    image: assets/img/experience/gaih.jpg
-    description: Global Core Member and mentor in a non-profit AI education community.
-
-  - title: Data Science Earth
-    organization: datasciencearth.com
-    image: assets/img/experience/data.jpg
-    description: Content producer for data science articles and resources.
-
   - title: GHOST
     organization: Group of Horribly Optimistic STatisticians
+    org_url: https://ghostday.pl/
+    period: Sep 2022 – Present
+    category: student-organization
     image: assets/img/experience/GHOST.png
     description: Member of a Poznań-based group focused on statistics, machine learning, and data analysis.
+
+  - title: Editor
+    organization: IOT Turkey
+    org_url: https://ioturkiye.com/
+    period: Oct 2020 – Jul 2022
+    category: community
+    image: assets/img/experience/iot.png
+    description: Editor contributing technical content on IoT topics.
+
+  - title: Content Producer
+    organization: Data Science Earth
+    org_url: https://www.datasciencearth.com/
+    period: Jan 2021 – Jul 2022
+    category: community
+    image: assets/img/experience/data.jpg
+    description: Content producer for data science articles and resources.

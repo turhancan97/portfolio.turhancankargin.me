@@ -3,9 +3,16 @@ cv_pdf: /assets/manualcv/KARGIN_CV.pdf
 email: turhancan.kargin@gmail.com
 scholar_userid: a2HFeq0AAAAJ
 orcid_id: 0000-0002-6751-4773
+research_gate_profile: Turhan-Can-Kargin
+semanticscholar_id: Turhan-Can-Kargin/2220753465
+dblp_url: https://dblp.org/pid/350/5938.html
 github_username: turhancan97
 linkedin_username: turhancankargin
 x_username: turhancan97
 medium_username: turhancankargin
 kaggle_id: turhancankargin
+huggingface:
+  logo: assets/img/social/huggingface.svg
+  title: Hugging Face
+  url: https://huggingface.co/turhancan97
 rss_icon: false
