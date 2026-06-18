@@ -29,3 +29,89 @@ html[data-theme="dark"] {
     text-align: center;
   }
 }
+
+/* Projects page: uniform card grid (fixed thumbnails, equal heights, clamped text). */
+.projects .row {
+  align-items: stretch;
+}
+
+.projects .col {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.projects .col > a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  color: inherit;
+  text-decoration: none;
+}
+
+.projects .card.hoverable {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+}
+
+.projects .card figure {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-color: var(--global-card-bg);
+}
+
+.projects .card figure picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.projects .card figure img,
+.projects .card img.card-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.projects .card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.projects .card-title {
+  font-size: 1rem;
+  line-height: 1.35;
+  margin-bottom: 0.5rem;
+  color: inherit;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  min-height: calc(1.35em * 2);
+}
+
+.projects .card-text {
+  font-size: 0.9rem;
+  line-height: 1.45;
+  margin-bottom: 0.75rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  flex: 1 1 auto;
+  min-height: calc(1.45em * 2);
+}
+
+.projects .card-body > .row {
+  margin-top: auto;
+}
+
+.projects a:hover .card-title {
+  color: var(--global-theme-color);
+}
