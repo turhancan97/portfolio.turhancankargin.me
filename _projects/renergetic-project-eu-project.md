@@ -4,7 +4,7 @@ title: "RENergetic Project (EU Project)"
 description: "EU Project which I am involved in as PSNC worker."
 img: assets/img/projects/Renergetic.png
 importance: 14
-category: research
+category: industry
 redirect: https://www.renergetic.eu/
 github: https://wiki.renergetic.eu/
 ---

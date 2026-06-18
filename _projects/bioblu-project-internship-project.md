@@ -4,7 +4,7 @@ title: "BIOBLU Project (Internship Project)"
 description: "Project from University of Catania, Italy."
 img: assets/img/projects/bioblu-robot.png
 importance: 11
-category: research
+category: industry
 redirect: https://turhancankargin.com/bioblu-project/
 github: https://huggingface.co/spaces/turhancan97/yolov8-orientation
 ---

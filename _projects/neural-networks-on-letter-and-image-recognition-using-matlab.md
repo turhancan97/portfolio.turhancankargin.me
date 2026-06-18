@@ -4,7 +4,7 @@ title: "Neural Networks on Letter and Image Recognition Using Matlab Program"
 description: "Laboratory of Basics of Smart System"
 img: assets/img/projects/image_rec.PNG
 importance: 33
-category: software
+category: coursework
 github: https://github.com/turhancan97/Neural-Network-Training-on-Matlab
 redirect: https://github.com/turhancan97/Neural-Network-Training-on-Matlab
 ---
