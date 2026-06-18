@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started Erasmus+ internship at the University of Catania (ROSys / [BIOBLU](https://biobluproject.com/)).
+Started Erasmus+ internship at the University of Catania ([ROSys](https://rosysgroup.github.io/) / [BIOBLU](https://turhancankargin.com/bioblu-project/)).

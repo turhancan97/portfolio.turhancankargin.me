@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Completed Erasmus+ internship at the University of Catania (ROSys / [BIOBLU](https://biobluproject.com/)) on AI for robotic object picking.
+Completed Erasmus+ internship at the University of Catania ([ROSys](https://rosysgroup.github.io/) / [BIOBLU](https://turhancankargin.com/bioblu-project/)) on AI for robotic object picking.
