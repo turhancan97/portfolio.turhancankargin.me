@@ -10,6 +10,6 @@ redirect: https://www.facebook.com/share/v/1D881T9DF9/
 
 Production-oriented modular application for Eurasian lynx re-identification.
 
-**Overview.** LYNX APPLICATION is a modular re-identification system for Eurasian lynx monitoring workflows. It supports image or video query input, applies optional preselection to filter uninformative frames, SAM3-based segmentation, compares query features against a gallery using RDD + LightGlue, and returns top-*k* ranked matches with visual diagnostics.
+**Overview.** LYNX APPLICATION is a modular re-identification system for Eurasian lynx monitoring workflows. It supports image or video query input, applies optional preselection to filter uninformative frames, SAM3-based segmentation, compares query features against a gallery using RDD + LightGlue, and returns top-_k_ ranked matches with visual diagnostics.
 
 - [Demo video](https://www.facebook.com/share/v/1D881T9DF9/)
