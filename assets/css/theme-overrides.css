@@ -30,14 +30,34 @@ html[data-theme="dark"] {
   }
 }
 
-/* Projects page: uniform card grid (fixed thumbnails, equal heights, clamped text). */
+/* Projects page: larger, uniform cards with consistent thumbnails and spacing. */
+.projects {
+  margin-top: 0.5rem;
+}
+
+.projects h2.category {
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin: 2.5rem 0 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--global-theme-color);
+}
+
+.projects h2.category:first-of-type {
+  margin-top: 0;
+}
+
 .projects .row {
   align-items: stretch;
+  --bs-gutter-x: 1.75rem;
+  --bs-gutter-y: 1.75rem;
 }
 
 .projects .col {
   display: flex;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0;
 }
 
 .projects .col > a {
@@ -48,20 +68,46 @@ html[data-theme="dark"] {
   text-decoration: none;
 }
 
+.projects .col > a:hover {
+  text-decoration: none;
+}
+
 .projects .card.hoverable {
   display: flex;
   flex-direction: column;
   width: 100%;
   overflow: hidden;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.85rem;
+  background-color: var(--global-card-bg);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  transition:
+    transform 0.22s ease,
+    box-shadow 0.22s ease,
+    border-color 0.22s ease;
+}
+
+.projects .col > a:hover .card.hoverable {
+  transform: translateY(-5px);
+  border-color: color-mix(in srgb, var(--global-theme-color) 35%, var(--global-divider-color));
+  box-shadow: 0 14px 28px rgba(13, 115, 119, 0.16);
+}
+
+html[data-theme="dark"] .projects .card.hoverable {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.28);
+}
+
+html[data-theme="dark"] .projects .col > a:hover .card.hoverable {
+  box-shadow: 0 14px 28px rgba(20, 163, 168, 0.2);
 }
 
 .projects .card figure {
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 4 / 3;
   width: 100%;
   margin: 0;
   overflow: hidden;
   flex-shrink: 0;
-  background-color: var(--global-card-bg);
+  background-color: color-mix(in srgb, var(--global-divider-color) 25%, var(--global-card-bg));
 }
 
 .projects .card figure picture {
@@ -76,40 +122,56 @@ html[data-theme="dark"] {
   height: 100%;
   object-fit: cover;
   object-position: center;
+  transition: transform 0.35s ease;
+}
+
+.projects .col > a:hover .card figure img,
+.projects .col > a:hover .card img.card-img-top {
+  transform: scale(1.04);
 }
 
 .projects .card-body {
   display: flex;
   flex-direction: column;
   flex: 1 1 auto;
+  padding: 1.15rem 1.25rem 1rem;
 }
 
 .projects .card-title {
-  font-size: 1rem;
-  line-height: 1.35;
-  margin-bottom: 0.5rem;
-  color: inherit;
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0.65rem;
+  color: var(--global-text-color, inherit);
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   overflow: hidden;
-  min-height: calc(1.35em * 2);
+  min-height: calc(1.4em * 3);
 }
 
 .projects .card-text {
-  font-size: 0.9rem;
-  line-height: 1.45;
-  margin-bottom: 0.75rem;
+  font-size: 0.98rem;
+  line-height: 1.55;
+  color: color-mix(in srgb, var(--global-text-color, #212529) 82%, transparent);
+  margin-bottom: 0.85rem;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   overflow: hidden;
   flex: 1 1 auto;
-  min-height: calc(1.45em * 2);
+  min-height: calc(1.55em * 3);
 }
 
 .projects .card-body > .row {
   margin-top: auto;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 0.35rem;
+}
+
+.projects .github-icon .gh-icon {
+  font-size: 1.35rem;
 }
 
 .projects a:hover .card-title {
