@@ -2,35 +2,28 @@
 layout: page
 permalink: /events/
 title: events
-description: Event and conference photos. Captions to be updated.
-nav: false
+description: Conferences, summer schools, and workshops attended or contributed to.
+nav: true
+nav_order: 6
 ---
 
-Photo gallery migrated from the previous site. **Note:** several captions are placeholders and will be updated in a future pass.
+Conferences, summer schools, and workshops — listed newest first.
 
-<div class="row row-cols-1 row-cols-md-2">
-  <div class="col mt-3">
-    {% include figure.liquid path="assets/img/events/image1.jpg" title="Group Picture (caption pending)" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col mt-3">
-    {% include figure.liquid path="assets/img/events/image2.jpg" title="Keynote on XYZ (caption pending)" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col mt-3">
-    {% include figure.liquid path="assets/img/events/image3.jpg" title="Talk on ABC (caption pending)" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col mt-3">
-    {% include figure.liquid path="assets/img/events/image4.jpg" title="Presentation (caption pending)" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col mt-3">
-    {% include figure.liquid path="assets/img/events/image5.jpg" title="Note on XYZ (caption pending)" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col mt-3">
-    {% include figure.liquid path="assets/img/events/image6.jpg" title="Keytopics (caption pending)" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col mt-3">
-    {% include figure.liquid path="assets/img/events/image7.jpg" title="The Gist (caption pending)" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col mt-3">
-    {% include figure.liquid path="assets/img/events/image8.jpg" title="Thank You (caption pending)" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
+<ul class="list-unstyled mt-3">
+{% assign sorted_events = site.data.events | sort: "date_sort" | reverse %}
+{% for event in sorted_events %}
+  <li class="mb-4">
+    <div class="text-muted small">{{ event.date }} · {{ event.location }}</div>
+    <div>
+      <strong>{{ event.role }}</strong> —
+      <a href="{{ event.url }}" target="_blank" rel="noopener noreferrer">{{ event.title }}</a>
+    </div>
+    {% if event.presentation %}
+    <div class="fst-italic mt-1">{{ event.presentation }}</div>
+    {% endif %}
+    {% if event.note %}
+    <div class="fst-italic mt-1">{{ event.note }}</div>
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>

@@ -15,6 +15,9 @@ profile:
     <p>30-348 Kraków, Poland</p>
 
 selected_papers: true
+scholar:
+  sort_by: selected_order
+  order: ascending
 social: true
 
 announcements:

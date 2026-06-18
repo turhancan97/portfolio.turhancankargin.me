@@ -1,0 +1,90 @@
+- date_sort: 2026-05
+  date: May, 2026
+  role: Poster Presentation
+  title: "GHOST Day: Applied Machine Learning Conference"
+  url: https://ghostday.pl/
+  location: Poznań, Poland
+  presentation: "SpaRRTa: A Synthetic Benchmark for Evaluating Spatial Intelligence in Visual Foundation Models"
+
+- date_sort: 2026-04
+  date: Apr, 2026
+  role: Accepted Paper & Poster Presentation
+  title: "ICLR 2026 Workshop on World Models"
+  url: https://sites.google.com/view/iclr-2026-workshop-world-model/home
+  location: Rio de Janeiro, Brazil
+  presentation: "SpaRRTa: A Synthetic Benchmark for Evaluating Spatial Intelligence in Visual Foundation Models"
+
+- date_sort: 2026-04
+  date: Apr, 2026
+  role: Poster Presentation
+  title: "Polish Conference on Artificial Intelligence (PP-RAI) 2026"
+  url: https://pp-rai.pl/programme/
+  location: Kraków, Poland
+  presentation: "SpaRRTa: A Synthetic Benchmark for Evaluating Spatial Intelligence in Visual Foundation Models"
+
+- date_sort: 2026-03
+  date: Mar, 2026
+  role: Poster Presentation
+  title: "Winter School on Foundation Models (FoMo) 2026"
+  url: https://ivi.fnwi.uva.nl/ellis/events/winter-school-on-foundation-models-fomo-2026-registration-opens-on-14-november-2025/
+  location: Amsterdam, Netherlands
+  presentation: "SpaRRTa: A Synthetic Benchmark for Evaluating Spatial Intelligence in Visual Foundation Models"
+
+- date_sort: 2025-10
+  date: Oct, 2025
+  role: Poster Presentation
+  title: "ML in PL Conference 2025"
+  url: https://conference2025.mlinpl.org/program#posters
+  location: Warsaw, Poland
+  presentation: "Probing the General Spatial Awareness of Vision Encoders"
+
+- date_sort: 2025-08
+  date: Aug, 2025
+  role: Poster Presentation
+  title: "ELLIS Doctoral Symposium on Robust AI"
+  url: https://eds2025.github.io/
+  location: Warsaw, Poland
+  presentation: "Probing the General Spatial Awareness of Vision Encoders"
+
+- date_sort: 2025-07
+  date: Jul, 2025
+  role: Attendee
+  title: "International Computer Vision Summer School (ICVSS) 2025"
+  url: https://icvss.dmi.unict.it/icvss2025/
+  location: Sicily, Italy
+
+- date_sort: 2025-06
+  date: Jun, 2025
+  role: Volunteer Organizer
+  title: "MLSSD 2025: Machine Learning Summer School on Drug and Materials Discovery"
+  url: https://mlss2025.mlinpl.org/
+  location: Kraków, Poland
+
+- date_sort: 2025-05
+  date: May, 2025
+  role: Attendee
+  title: "GHOST Day: Applied Machine Learning Conference"
+  url: https://ghostday.pl/25-edition/
+  location: Poznań, Poland
+
+- date_sort: 2025-01
+  date: Jan, 2025
+  role: Attendee
+  title: "ELIAS-ELLIS-VISMAC Winter School 2025"
+  url: https://elias-ai.eu/event/ellis-vismac/
+  location: Brunico, Italy
+  note: Best Project Award
+
+- date_sort: 2024-11
+  date: Nov, 2024
+  role: Attendee
+  title: "ML in PL Conference 2024"
+  url: https://conference2024.mlinpl.org/
+  location: Warsaw, Poland
+
+- date_sort: 2024-05
+  date: May, 2024
+  role: Attendee
+  title: "GHOST Day: Applied Machine Learning Conference"
+  url: https://ghostday.pl/24-edition/
+  location: Poznań, Poland
