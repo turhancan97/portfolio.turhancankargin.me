@@ -1,9 +1,8 @@
 cv:
   name: Turhan Can Kargin
-  label: PhD Researcher
+  headline: PhD Researcher
   email: turhancan97@gmail.com
   location: Kraków, Poland
-  summary: PhD researcher at GMUM, Jagiellonian University, working on self-supervised learning and spatial intelligence in visual foundation models.
 
   social_networks:
     - network: X
@@ -14,11 +13,14 @@ cv:
       username: turhancankargin
 
   sections:
+    Summary:
+      - PhD researcher at GMUM, Jagiellonian University, working on self-supervised learning and spatial intelligence in visual foundation models.
+
     Education:
       - institution: Jagiellonian University
         location: Kraków, Poland
         area: Technical Computer Science — Machine Learning
-        studyType: PhD
+        degree: PhD
         start_date: 2024
         end_date: present
         highlights:
@@ -29,7 +31,7 @@ cv:
       - institution: Poznan University of Technology (Politechnika Poznańska)
         location: Poznań, Poland
         area: Automatic Control and Robotics
-        studyType: MSc
+        degree: MSc
         start_date: 2021
         end_date: 2022
         score: "4.75/5"
@@ -40,7 +42,7 @@ cv:
       - institution: Izmir Katip Celebi University
         location: Izmir, Turkey
         area: Electrical & Electronics Engineering
-        studyType: BSc
+        degree: BSc
         start_date: 2015
         end_date: 2020
         score: "3.57/4"
@@ -50,7 +52,7 @@ cv:
       - institution: Anadolu University
         location: Eskişehir, Turkey
         area: Business Administration
-        studyType: BBA
+        degree: BBA
         start_date: 2016
         end_date: 2021
         score: "2.96/4"
@@ -60,7 +62,7 @@ cv:
       - institution: Poznan University of Technology
         location: Poznań, Poland
         area: Electronics and Telecommunications Engineering
-        studyType: Erasmus Exchange
+        degree: Erasmus Exchange
         start_date: 2018
         end_date: 2019
         score: "4.53/5"
@@ -170,83 +172,88 @@ cv:
 
     Certificates:
       - name: MATLAB Programming for Engineers and Scientists Specialization
-        issuer: Coursera
-        url: https://www.coursera.org/specializations/matlab-programming-engineers-scientists
+        summary: Coursera
+        highlights:
+          - https://www.coursera.org/specializations/matlab-programming-engineers-scientists
 
       - name: Machine Learning (Andrew Ng)
-        issuer: Coursera
-        url: https://www.coursera.org/learn/machine-learning
+        summary: Coursera
+        highlights:
+          - https://www.coursera.org/learn/machine-learning
 
       - name: Robotics Specialization
-        issuer: Coursera
-        url: https://www.coursera.org/specializations/robotics
+        summary: Coursera
+        highlights:
+          - https://www.coursera.org/specializations/robotics
 
       - name: CS50X — Introduction to Computer Science
-        issuer: edX / Harvard
-        url: https://www.edx.org/course/introduction-computer-science-harvardx-cs50x
+        summary: edX / Harvard
+        highlights:
+          - https://www.edx.org/course/introduction-computer-science-harvardx-cs50x
 
       - name: 3D Printing and Additive Manufacturing Specialization
-        issuer: Coursera
-        url: https://www.coursera.org/specializations/3d-printing-additive-manufacturing
+        summary: Coursera
+        highlights:
+          - https://www.coursera.org/specializations/3d-printing-additive-manufacturing
 
       - name: R Programming
-        issuer: Udemy
-        url: https://www.udemy.com/user/veri-bilimi-okulu/
+        summary: Udemy
+        highlights:
+          - https://www.udemy.com/user/veri-bilimi-okulu/
 
       - name: Machine Learning, Deep Learning & Reinforcement Learning
-        issuer: Udemy
-        url: https://www.udemy.com/user/datai-team/
+        summary: Udemy
+        highlights:
+          - https://www.udemy.com/user/datai-team/
 
       - name: Python — Data Science, Visualization & Statistics
-        issuer: Udemy
-        url: https://www.udemy.com/user/datai-team/
+        summary: Udemy
+        highlights:
+          - https://www.udemy.com/user/datai-team/
 
       - name: Data Visualization
-        issuer: Global AI Hub
-        url: https://globalaihub.com/all-courses/
+        summary: Global AI Hub
+        highlights:
+          - https://globalaihub.com/all-courses/
 
       - name: Deep Learning
-        issuer: Global AI Hub
-        url: https://globalaihub.com/all-courses/
+        summary: Global AI Hub
+        highlights:
+          - https://globalaihub.com/all-courses/
 
       - name: Python Programming
-        issuer: Global AI Hub
-        url: https://globalaihub.com/all-courses/
+        summary: Global AI Hub
+        highlights:
+          - https://globalaihub.com/all-courses/
 
       - name: Google Developer Essentials
-        issuer: Google
         date: 2020-05
-        summary: Earned May 20, 2020
+        summary: Google — Earned May 20, 2020
 
       - name: VM Migration
-        issuer: Google
         date: 2020-06
-        summary: Earned June 20, 2020
+        summary: Google — Earned June 20, 2020
 
       - name: G Suite Essentials
-        issuer: Google
         date: 2020-07
-        summary: Earned July 20, 2020
+        summary: Google — Earned July 20, 2020
 
     Skills:
-      - name: Machine Learning & AI
-        level: Expert
-        keywords: "Self-supervised learning, computer vision, deep learning, reinforcement learning, spatial intelligence"
+      - label: Machine Learning & AI
+        details: Self-supervised learning, computer vision, deep learning, reinforcement learning, spatial intelligence
 
-      - name: Robotics
-        level: Advanced
-        keywords: "Continuum robots, ROS, Gazebo, mobile robotics, control systems"
+      - label: Robotics
+        details: Continuum robots, ROS, Gazebo, mobile robotics, control systems
 
-      - name: Programming
-        level: Advanced
-        keywords: "Python, R, MATLAB, C++, Swift"
+      - label: Programming
+        details: Python, R, MATLAB, C++, Swift
 
     Languages:
-      - name: Turkish
-        summary: Native speaker
+      - label: Turkish
+        details: Native speaker
 
-      - name: English
-        summary: Fluent
+      - label: English
+        details: Fluent
 
-      - name: Polish
-        summary: Working proficiency
+      - label: Polish
+        details: Working proficiency
