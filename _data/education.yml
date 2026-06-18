@@ -1,0 +1,95 @@
+degrees:
+  - period: 2024 – 2028
+    institution: Jagiellonian University
+    institution_url: https://www.uj.edu.pl/
+    degree: PhD, Technical Computer Science — Machine Learning
+    image: assets/img/education/edTimeline1.png
+    highlights:
+      - Faculty of Mathematics and Computer Science.
+      - Supervisor: Prof. Bartosz Zieliński.
+
+  - period: 2021 – 2022
+    institution: Poznań University of Technology
+    institution_url: https://www.put.poznan.pl/
+    degree: MSc, Automatic Control and Robotics
+    image: assets/img/education/edTimeline2.png
+    highlights:
+      - Specialization in Smart Aerospace and Autonomous Systems.
+      - GPA 4.75/5.
+      - PUT Rector Scholarship (awarded twice for academic success).
+
+  - period: 2015 – 2020
+    institution: Izmir Katip Çelebi University
+    institution_url: https://www.ikcu.edu.tr/
+    degree: BSc, Electrical & Electronics Engineering
+    image: assets/img/education/edTimeline3.png
+    highlights:
+      - GPA 3.57/4.
+      - Highest-ranked student in the department.
+
+  - period: 2016 – 2021
+    institution: Anadolu University
+    institution_url: https://www.anadolu.edu.tr/
+    degree: BBA, Business Administration
+    image: assets/img/education/edTimeline4.png
+    highlights:
+      - GPA 2.96/4.
+      - Certificate of Honour for the 2016–2017 academic year.
+
+  - period: 2018 – 2019
+    institution: Poznań University of Technology
+    institution_url: https://www.put.poznan.pl/
+    degree: Erasmus+ Exchange, Electronics and Telecommunications Engineering
+    image: assets/img/education/edTimeline1.png
+    highlights:
+      - Final average grade 4.53/5.
+      - One-semester exchange during undergraduate studies at IKCU.
+
+moocs:
+  - title: MATLAB Programming for Engineers and Scientists Specialization
+    image: assets/img/education/coursera2.svg
+    url: https://www.coursera.org/specializations/matlab-programming-engineers-scientists
+
+  - title: R Programming
+    image: assets/img/education/udemy.svg
+    url: https://www.udemy.com/user/veri-bilimi-okulu/
+
+  - title: Machine Learning
+    image: assets/img/education/coursera2.svg
+    url: https://www.coursera.org/learn/machine-learning
+
+  - title: Data Visualization
+    image: assets/img/education/gaih.jpg
+    url: https://globalaihub.com/all-courses/
+
+  - title: Machine Learning
+    image: assets/img/education/gaih.jpg
+    url: https://globalaihub.com/all-courses/
+
+  - title: Deep Learning
+    image: assets/img/education/gaih.jpg
+    url: https://globalaihub.com/all-courses/
+
+  - title: Machine Learning, Deep Learning & Reinforcement Learning
+    image: assets/img/education/udemy.svg
+    url: https://www.udemy.com/user/datai-team/
+
+  - title: CS50x — Introduction to Computer Science
+    image: assets/img/education/edx.svg
+    url: https://www.edx.org/course/introduction-computer-science-harvardx-cs50x
+
+  - title: Robotics Specialization
+    image: assets/img/education/coursera2.svg
+    url: https://www.coursera.org/specializations/robotics
+
+  - title: 3D Printing and Additive Manufacturing Specialization
+    image: assets/img/education/coursera2.svg
+    url: https://www.coursera.org/specializations/3d-printing-additive-manufacturing
+
+  - title: Python, Data Science, Data Visualization & Statistics
+    image: assets/img/education/udemy.svg
+    url: https://www.udemy.com/user/datai-team/
+
+  - title: Python Programming
+    image: assets/img/education/gaih.jpg
+    url: https://globalaihub.com/all-courses/

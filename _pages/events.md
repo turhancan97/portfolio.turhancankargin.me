@@ -4,7 +4,7 @@ permalink: /events/
 title: events
 description: Conferences, summer schools, and workshops attended or contributed to.
 nav: true
-nav_order: 6
+nav_order: 7
 ---
 
 Conferences, summer schools, and workshops — listed newest first.

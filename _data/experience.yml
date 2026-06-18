@@ -1,0 +1,111 @@
+work:
+  - title: PhD Researcher
+    organization: Group of Machine Learning Research (GMUM)
+    org_url: https://gmum.net/
+    location: Jagiellonian University, Kraków, Poland
+    period: Oct 2024 – Present
+    image: assets/img/experience/gmum.png
+    highlights:
+      - Research on self-supervised learning, spatial intelligence in visual foundation models, and robotics.
+      - Supervised by Prof. Bartosz Zieliński at the Faculty of Mathematics and Computer Science.
+
+  - title: Data Scientist
+    organization: Poznań Supercomputing and Networking Center (PSNC)
+    org_url: https://www.psnc.pl/
+    location: Poznań, Poland
+    period: Mar 2022 – Jan 2025
+    image: assets/img/experience/PSNC.png
+    highlights:
+      - Applied machine learning, statistical modeling, and time-series analytics in the ICT Energy Efficient Technologies Department.
+      - Anomaly detection and forecasting for energy consumption data.
+      - Contributed to the EU-funded RENergetic project and renewable energy system simulations.
+
+  - title: Erasmus+ Internship
+    organization: University of Catania
+    org_url: https://www.unict.it/en
+    location: Catania, Italy
+    period: Mar – Aug 2023
+    image: assets/img/experience/UniCT.png
+    highlights:
+      - Worked in the ROSys robotics group on the BIOBLU project.
+      - Improved object-picking algorithms with computer vision and AI methods.
+      - Developed and tested robotic control strategies in ROS and Gazebo for mobile robots and manipulators.
+
+  - title: Erasmus+ Internship
+    organization: Silesian University of Technology
+    org_url: https://www.polsl.pl/en
+    location: Gliwice, Poland
+    period: Nov 2020 – Feb 2021
+    image: assets/img/experience/silezya.png
+    highlights:
+      - Project on methods of clustering single-cell RNA sequencing data.
+      - Analyzed breast cancer single-cell data using R and clustering workflows.
+
+  - title: Mandatory Internship & Graduation Project
+    organization: Tescom UPS
+    location: Izmir, Turkey
+    period: Aug 2019 – Jul 2020
+    image: assets/img/experience/tescom.png
+    highlights:
+      - BSc graduation project on LLC resonant converter design for UPS battery charging (TÜBİTAK 2209-B, industry-supported by Tescom).
+      - Production internship across PCB layout, card testing, cabling, and device testing.
+
+  - title: Working Student
+    organization: Deutz Service Group ASM Ex-Proof
+    location: Cologne, Germany
+    period: Dec 2019 – Feb 2020
+    image: assets/img/experience/asm.png
+    highlights:
+      - Supported engineering work on Ex-Proof products for industrial motors, automotive, and machinery.
+
+  - title: Mandatory Internship
+    organization: Elpro Energy
+    location: Izmir, Turkey
+    period: Aug – Sep 2019
+    image: assets/img/experience/elpro.png
+    highlights:
+      - Electrical installation design, bill-of-quantity preparation, material research, and AutoCAD drafting.
+
+  - title: Optional Internship
+    organization: Maselmak Engineering
+    location: Izmir, Turkey
+    period: Jul – Aug 2017
+    image: assets/img/experience/maselmak.jpg
+    highlights:
+      - Electrical panel design (SEE Electrical), TIA Portal, and PLC programming.
+
+volunteer:
+  - title: IEEE Student Branch
+    organization: IEEE Izmir Katip Çelebi University
+    image: assets/img/experience/ieee.jpeg
+    description: Treasurer of the student branch, responsible for financial control and reporting.
+
+  - title: IEEE Power & Energy Society
+    organization: IEEE Izmir Katip Çelebi University
+    image: assets/img/experience/pes.jpg
+    description: Vice-Chair supporting branch leadership and society activities.
+
+  - title: IOT Turkey
+    organization: ioturkiye.com
+    image: assets/img/experience/iot.png
+    description: Editor contributing technical content on IoT topics.
+
+  - title: CybAiR Science Club
+    organization: Poznań University of Technology
+    image: assets/img/experience/cybair.png
+    description: Member of a robotics and automation student club working on hands-on engineering projects.
+
+  - title: Global AI Hub
+    organization: Global AI Hub
+    image: assets/img/experience/gaih.jpg
+    description: Global Core Member and mentor in a non-profit AI education community.
+
+  - title: Data Science Earth
+    organization: datasciencearth.com
+    image: assets/img/experience/data.jpg
+    description: Content producer for data science articles and resources.
+
+  - title: GHOST
+    organization: Group of Horribly Optimistic STatisticians
+    image: assets/img/experience/GHOST.png
+    description: Member of a Poznań-based group focused on statistics, machine learning, and data analysis.
