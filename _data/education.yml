@@ -3,16 +3,17 @@ degrees:
     institution: Jagiellonian University
     institution_url: https://www.uj.edu.pl/
     degree: PhD, Technical Computer Science — Machine Learning
-    image: assets/img/education/edTimeline1.png
+    image: assets/img/education/uj.png
     highlights:
       - Faculty of Mathematics and Computer Science.
-      - Supervisor: Prof. Bartosz Zieliński.
+      - "Supervisor: Prof. Bartosz Zieliński."
 
   - period: 2021 – 2022
     institution: Poznań University of Technology
     institution_url: https://www.put.poznan.pl/
     degree: MSc, Automatic Control and Robotics
-    image: assets/img/education/edTimeline2.png
+    image: assets/img/education/put.png
+    logo_size: large
     highlights:
       - Specialization in Smart Aerospace and Autonomous Systems.
       - GPA 4.75/5.
@@ -22,7 +23,8 @@ degrees:
     institution: Izmir Katip Çelebi University
     institution_url: https://www.ikcu.edu.tr/
     degree: BSc, Electrical & Electronics Engineering
-    image: assets/img/education/edTimeline3.png
+    image: assets/img/education/ikc.png
+    logo_size: large
     highlights:
       - GPA 3.57/4.
       - Highest-ranked student in the department.
@@ -31,7 +33,8 @@ degrees:
     institution: Anadolu University
     institution_url: https://www.anadolu.edu.tr/
     degree: BBA, Business Administration
-    image: assets/img/education/edTimeline4.png
+    image: assets/img/education/aof.png
+    logo_size: large
     highlights:
       - GPA 2.96/4.
       - Certificate of Honour for the 2016–2017 academic year.
@@ -40,7 +43,8 @@ degrees:
     institution: Poznań University of Technology
     institution_url: https://www.put.poznan.pl/
     degree: Erasmus+ Exchange, Electronics and Telecommunications Engineering
-    image: assets/img/education/edTimeline1.png
+    image: assets/img/education/put.png
+    logo_size: large
     highlights:
       - Final average grade 4.53/5.
       - One-semester exchange during undergraduate studies at IKCU.

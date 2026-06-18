@@ -14,7 +14,9 @@ nav_order: 5
   <article class="education-entry">
     <div class="education-entry-marker" aria-hidden="true"></div>
     <div class="education-entry-card card hoverable">
-      <div class="education-entry-header" style="background-image: url('{{ item.image | relative_url }}');"></div>
+      <div class="education-entry-media{% if item.logo_size == 'large' %} education-entry-media--large{% endif %}">
+        <img src="{{ item.image | relative_url }}" alt="{{ item.institution }} logo" loading="lazy">
+      </div>
       <div class="education-entry-body">
         <div class="education-entry-period">{{ item.period }}</div>
         <h3 class="education-entry-title">
