@@ -1,7 +1,7 @@
 ---
 layout: page
-title: RENergetic Project (EU Project)
-description: EU Project which I am involved in as PSNC worker.
+title: "RENergetic Project (EU Project)"
+description: "EU Project which I am involved in as PSNC worker."
 img: assets/img/projects/Renergetic.png
 importance: 14
 category: research

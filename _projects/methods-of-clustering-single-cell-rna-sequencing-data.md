@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Methods of Clustering Single-Cell RNA Sequencing Data
-description: The goal of the project is to test different clustering algorithms to define cell subpopulation using breast cancer single-cell data.
+title: "Methods of Clustering Single-Cell RNA Sequencing Data"
+description: "The goal of the project is to test different clustering algorithms to define cell subpopulation using breast cancer single-cell data."
 img: assets/img/projects/singlecell.PNG
 importance: 27
 category: research

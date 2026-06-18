@@ -1,7 +1,7 @@
 ---
 layout: page
-title: SpaRRTa: Spatial Intelligence Benchmark
-description: A Synthetic Benchmark for Evaluating Spatial Intelligence in Visual Foundation Models
+title: "SpaRRTa: Spatial Intelligence Benchmark"
+description: "A Synthetic Benchmark for Evaluating Spatial Intelligence in Visual Foundation Models"
 img: assets/img/projects/SpaRRTa.png
 importance: 1
 category: research

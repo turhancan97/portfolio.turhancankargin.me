@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Control of Two-wheeled Mobile Robots
-description: In this project, the aim is to control two-wheeled mobile robot in ROS and MATLAB
+title: "Control of Two-wheeled Mobile Robots"
+description: "In this project, the aim is to control two-wheeled mobile robot in ROS and MATLAB"
 img: assets/img/projects/mobile_robot_dif.png
 importance: 23
 category: research

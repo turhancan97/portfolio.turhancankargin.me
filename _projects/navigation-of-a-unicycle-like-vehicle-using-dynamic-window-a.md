@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Navigation of a unicycle-like vehicle using dynamic window approach
-description: Local motion planning with dynamic window approach on MATLAB
+title: "Navigation of a unicycle-like vehicle using dynamic window approach"
+description: "Local motion planning with dynamic window approach on MATLAB"
 img: assets/img/projects/robot.PNG
 importance: 28
 category: software

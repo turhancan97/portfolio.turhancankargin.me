@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Deep Q-Learning for Pong
-description: Deep Q-Learning (DQL) agent that learns to play Pong directly from pixels.
+title: "Deep Q-Learning for Pong"
+description: "Deep Q-Learning (DQL) agent that learns to play Pong directly from pixels."
 img: assets/img/projects/pong.png
 importance: 16
 category: coursework

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 🧠 Interactive Autoencoder Framework
-description: A modular, interactive framework for exploring different autoencoder architectures with real-time latent space visualization. This project allows you to train and interact with various autoencoder models (MLP, CNN, VAE) through an intuitive click-and-drag interface.
+title: "🧠 Interactive Autoencoder Framework"
+description: "A modular, interactive framework for exploring different autoencoder architectures with real-time latent space visualization. This project allows you to train and interact with various autoencoder models (MLP, CNN, VAE) through an intuitive click-and-drag interface."
 img: assets/img/projects/autoencoder.png
 importance: 18
 category: coursework

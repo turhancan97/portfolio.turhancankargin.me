@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Obstacle Avoidance with Reinforcement Learning for Continuum Robot
-description: Simulation based Obstacle Avoidance for Continuum Robot via Reinforcement Learning Algorithm
+title: "Obstacle Avoidance with Reinforcement Learning for Continuum Robot"
+description: "Simulation based Obstacle Avoidance for Continuum Robot via Reinforcement Learning Algorithm"
 img: assets/img/projects/obstacle-avoidance.jpg
 importance: 3
 category: research

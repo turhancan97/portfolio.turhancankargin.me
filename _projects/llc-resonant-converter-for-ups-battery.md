@@ -1,7 +1,7 @@
 ---
 layout: page
-title: LLC Resonant Converter for UPS Battery
-description: High Power Efficiency Design Approach of a LLC Resonant Converter for UPS Battery Charger Application and Battery Charge - Discharge Regression Model
+title: "LLC Resonant Converter for UPS Battery"
+description: "High Power Efficiency Design Approach of a LLC Resonant Converter for UPS Battery Charger Application and Battery Charge - Discharge Regression Model"
 img: assets/img/projects/Simulation_Image.PNG
 importance: 26
 category: research

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Mini RL Game — DQN learns to Eat or Avoid
-description: Pygame-based mini-game with a Deep Q-Learning (DQN) agent that learns two scenarios.
+title: "Mini RL Game — DQN learns to Eat or Avoid"
+description: "Pygame-based mini-game with a Deep Q-Learning (DQN) agent that learns two scenarios."
 img: assets/img/projects/mini-game.png
 importance: 17
 category: coursework

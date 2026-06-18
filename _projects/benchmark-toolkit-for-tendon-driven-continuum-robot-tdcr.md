@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Benchmark toolkit for tendon-driven continuum robot (TDCR)
-description: Python benchmark toolkit for tendon-driven continuum robot (TDCR) modeling, featuring constant-curvature, piecewise, Cosserat, and pseudo-rigid-body models with trajectory animation and interactive 3D visualization.
+title: "Benchmark toolkit for tendon-driven continuum robot (TDCR)"
+description: "Python benchmark toolkit for tendon-driven continuum robot (TDCR) modeling, featuring constant-curvature, piecewise, Cosserat, and pseudo-rigid-body models with trajectory animation and interactive 3D visualization."
 img: assets/img/projects/tdcr_logo.png
 importance: 4
 category: research

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: BIOBLU Project (Internship Project)
-description: Project from University of Catania, Italy.
+title: "BIOBLU Project (Internship Project)"
+description: "Project from University of Catania, Italy."
 img: assets/img/projects/bioblu-robot.png
 importance: 11
 category: research

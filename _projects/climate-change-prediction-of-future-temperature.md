@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Climate Change Prediction of Future Temperature
-description: Machine Learning Lecture Project.
+title: "Climate Change Prediction of Future Temperature"
+description: "Machine Learning Lecture Project."
 img: assets/img/projects/temp.PNG
 importance: 35
 category: coursework

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: A Reinforcement Learning Approach for Continuum Robot Control
-description: Simulation based Soft Continuum Robot Control via Reinforcement Learning Algorithm
+title: "A Reinforcement Learning Approach for Continuum Robot Control"
+description: "Simulation based Soft Continuum Robot Control via Reinforcement Learning Algorithm"
 img: assets/img/projects/continuum_rl.png
 importance: 2
 category: research
