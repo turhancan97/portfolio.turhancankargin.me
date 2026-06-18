@@ -363,38 +363,12 @@ html[data-theme="dark"] .projects .project-item:hover .card.hoverable {
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
 }
 
-.education-entry-media {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 6.75rem;
-  padding: 1rem 1.5rem;
-  background-color: #ffffff;
-  border-bottom: 1px solid var(--global-divider-color);
-}
-
-html[data-theme="dark"] .education-entry-media {
-  background-color: #f4f6f8;
-}
-
-.education-entry-media img {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: min(100%, 22rem);
-  max-height: 4.75rem;
-  object-fit: contain;
-  object-position: center;
-}
-
-.education-entry-media--large {
-  min-height: 8rem;
-  padding: 1.1rem 1.25rem;
-}
-
-.education-entry-media--large img {
-  max-width: min(100%, 26rem);
-  max-height: 6.25rem;
+.education-entry-header {
+  height: 7rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: color-mix(in srgb, var(--global-theme-color) 12%, var(--global-card-bg));
 }
 
 .education-entry-body {
