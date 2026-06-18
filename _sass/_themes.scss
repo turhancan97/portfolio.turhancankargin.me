@@ -1,0 +1,15 @@
+:root {
+  --global-theme-color: #0d7377;
+  --global-hover-color: #0a5c5f;
+  --global-footer-bg: #f8f9fa;
+  --global-divider-color: #dee2e6;
+  --global-card-bg: #ffffff;
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #14a3a8;
+  --global-hover-color: #1bc4ca;
+  --global-footer-bg: #1a1a1a;
+  --global-divider-color: #404040;
+  --global-card-bg: #212529;
+}

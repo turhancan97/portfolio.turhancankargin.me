@@ -1,189 +1,257 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Turhan Can Kargin
+  label: PhD Researcher
+  email: ""
+  location: Kraków, Poland
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Turhan Can Kargin is a PhD researcher at the Group of Machine Learning Research (GMUM), Jagiellonian University, working on self-supervised learning and spatial intelligence in visual foundation models.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
+    - network: Google Scholar
+      username: a2HFeq0AAAAJ
+    - network: ORCID
+      username: 0000-0002-6751-4773
     - network: GitHub
-      username: example
+      username: turhancan97
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: turhancankargin
+    - network: X
+      username: turhancan97
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
+      - institution: Jagiellonian University
+        location: Kraków, Poland
+        area: Technical Computer Science — Machine Learning
         studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+        start_date: 2024
+        end_date: present
         highlights:
-          - Description 1.
-          - Description 2.
+          - Faculty of Mathematics and Computer Science
+          - Supervisor — Prof. Bartosz Zieliński
+          - Affiliated with GMUM (Group of Machine Learning Research)
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Poznan University of Technology (Politechnika Poznańska)
+        location: Poznań, Poland
+        area: Automatic Control and Robotics
+        studyType: MSc
+        start_date: 2021
+        end_date: 2022
+        score: "4.75/5"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Specialization — Smart Aerospace and Autonomous Systems
+          - PUT Rector Scholarship (twice)
+
+      - institution: Izmir Katip Celebi University
+        location: Izmir, Turkey
+        area: Electrical & Electronics Engineering
+        studyType: BSc
+        start_date: 2015
+        end_date: 2020
+        score: "3.57/4"
+        highlights:
+          - Highest ranked student of the department
+
+      - institution: Anadolu University
+        location: Eskişehir, Turkey
+        area: Business Administration
+        studyType: BBA
+        start_date: 2016
+        end_date: 2021
+        score: "2.96/4"
+        highlights:
+          - Certificate of Honour (2016–2017)
+
+      - institution: Poznan University of Technology
+        location: Poznań, Poland
+        area: Electronics and Telecommunications Engineering
+        studyType: Erasmus Exchange
+        start_date: 2018
+        end_date: 2019
+        score: "4.53/5"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Group of Machine Learning Research (GMUM), Jagiellonian University
+        position: PhD Researcher
+        location: Kraków, Poland
+        start_date: 2024-10
+        end_date: present
+        summary: Research on self-supervised learning methods and spatial intelligence in visual foundation models.
         highlights:
-          - Relativity
-          - Description 2.
+          - SpaRRTa spatial intelligence benchmark for VFMs
+          - Member of GMUM research group (https://gmum.net)
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Poznan Supercomputing and Networking Center (PSNC)
+        position: Data Scientist
+        location: Poznań, Poland
+        start_date: 2022-03
+        end_date: 2025-01
+        summary: Applied data science, machine learning, and time-series analytics for ICT energy-efficient technologies.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Anomaly detection and forecasting on energy consumption time series
+          - RENergetic EU project (www.renergetic.eu)
+          - Simulation and analysis of renewable energy system setups
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+      - company: University of Catania — DIEEI / ROSys
+        position: Erasmus+ Internship
+        location: Catania, Italy
+        start_date: 2023-03
+        end_date: 2023-08
+        summary: BIOBLU project — object picking with AI methods, ROS, Gazebo simulation, and computer vision.
+        highlights:
+          - Robotic control strategies based on AI
+          - Algorithms tested in Gazebo simulation environment
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+      - company: Silesian University of Technology
+        position: Erasmus+ Internship
+        location: Gliwice, Poland
+        start_date: 2020-11
+        end_date: 2021-02
+        summary: Methods of clustering single-cell RNA sequencing data using R.
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
+      - company: Tescom UPS
+        position: Mandatory Internship & Graduation Project
+        location: Izmir, Turkey
+        start_date: 2019-08
+        end_date: 2020-07
+        summary: TÜBİTAK 2209B-funded thesis on LLC resonant converter design and battery charge-discharge regression models; production internship across PCB, test, and assembly.
+
+      - company: Deutz Service Group ASM Ex-Proof
+        position: Working Student
+        location: Turkey
+        start_date: 2019-12
+        end_date: 2020-02
+        summary: Industrial motor and Ex-Proof products project.
+
+      - company: Elpro Energy
+        position: Mandatory Internship
+        location: Turkey
+        start_date: 2019-08
+        end_date: 2019-09
+        summary: Electrical installation design, bill of quantities, and AutoCAD.
+
+      - company: Maselmak Engineering
+        position: Optional Internship
+        location: Turkey
+        start_date: 2017-07
+        end_date: 2017-08
+        summary: Electrical panel design (See Electrical), TIA Portal, and PLC.
 
     Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+      - company: IEEE Izmir Katip Celebi University Student Branch
+        position: Treasurer
+        location: Izmir, Turkey
+        summary: Financial control and reporting for the student branch.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: IEEE PES — IKCU
+        position: Vice-Chairman
+        location: Izmir, Turkey
+        summary: Supported the chair of the Power and Energy Society chapter.
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: IOT Turkey
+        position: Editor
+        location: Turkey
+        summary: Editor for ioturkiye.com
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - company: CybAiR Science Club (PUT Poznań)
+        position: Member
+        location: Poznań, Poland
+        summary: Robotics, automation, and autonomous vehicles student club.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+      - company: Global AI Hub
+        position: Core Member & Mentor
+        location: Remote
+        summary: Non-profit AI education organization; mentoring and community contributions.
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - company: Data Science Earth
+        position: Content Producer
+        location: Remote
+        summary: Content production for datasciencearth.com
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - company: GHOST (Group of Horribly Optimistic STatisticians)
+        position: Member
+        location: Poznań, Poland
+        summary: Statistics, machine learning, and data analysis study group.
 
     Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+      - name: MATLAB Programming for Engineers and Scientists Specialization
+        issuer: Coursera
+        url: https://www.coursera.org/specializations/matlab-programming-engineers-scientists
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+      - name: Machine Learning (Andrew Ng)
+        issuer: Coursera
+        url: https://www.coursera.org/learn/machine-learning
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - name: Robotics Specialization
+        issuer: Coursera
+        url: https://www.coursera.org/specializations/robotics
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+      - name: CS50X — Introduction to Computer Science
+        issuer: edX / Harvard
+        url: https://www.edx.org/course/introduction-computer-science-harvardx-cs50x
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: 3D Printing and Additive Manufacturing Specialization
+        issuer: Coursera
+        url: https://www.coursera.org/specializations/3d-printing-additive-manufacturing
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: R Programming
+        issuer: Udemy
+        url: https://www.udemy.com/user/veri-bilimi-okulu/
+
+      - name: Machine Learning, Deep Learning & Reinforcement Learning
+        issuer: Udemy
+        url: https://www.udemy.com/user/datai-team/
+
+      - name: Python — Data Science, Visualization & Statistics
+        issuer: Udemy
+        url: https://www.udemy.com/user/datai-team/
+
+      - name: Data Visualization
+        issuer: Global AI Hub
+        url: https://globalaihub.com/all-courses/
+
+      - name: Deep Learning
+        issuer: Global AI Hub
+        url: https://globalaihub.com/all-courses/
+
+      - name: Python Programming
+        issuer: Global AI Hub
+        url: https://globalaihub.com/all-courses/
+
+      - name: Google Developer Essentials
+        issuer: Google
+        date: 2020-05
+        summary: Earned May 20, 2020
+
+      - name: VM Migration
+        issuer: Google
+        date: 2020-06
+        summary: Earned June 20, 2020
+
+      - name: G Suite Essentials
+        issuer: Google
+        date: 2020-07
+        summary: Earned July 20, 2020
+
+    Skills:
+      - name: Machine Learning & AI
+        level: Expert
+        keywords: "Self-supervised learning, computer vision, deep learning, reinforcement learning, spatial intelligence"
+
+      - name: Robotics
+        level: Advanced
+        keywords: "Continuum robots, ROS, Gazebo, mobile robotics, control systems"
+
+      - name: Programming
+        level: Advanced
+        keywords: "Python, R, MATLAB, C++, Swift"
+
+    Languages:
+      - name: Turkish
+        summary: Native speaker
+
+      - name: English
+        summary: Fluent
+
+      - name: Polish
+        summary: Working proficiency
