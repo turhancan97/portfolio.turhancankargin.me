@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2019-09-01 09:00:00+0300
+date: 2019-08-01 09:00:00+0300
 inline: true
 related_posts: false
 ---
 
-Completed mandatory internship at Elpro Energy on electrical installation design.
+Started a mandatory engineering internship at Elpro Energy on electrical installation design.

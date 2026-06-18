@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Graduated with a BSc in Electrical & Electronics Engineering from İzmir Katip Çelebi University — highest-ranked student in the department.
+Graduated with a BSc in [Electrical & Electronics Engineering from İzmir Katip Çelebi University](https://eee.ikcu.edu.tr/) — highest-ranked student in the department.

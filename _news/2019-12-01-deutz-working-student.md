@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Worked as a working student at Deutz Service Group ASM Ex-Proof on industrial Ex-Proof products.
+Worked as a working engineering student at [Deutz Service Group ASM Ex-Proof](https://www.grup-ex.com/en/) on industrial Ex-Proof products.

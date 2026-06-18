@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined [CybAiR](https://www.facebook.com/CybAiR/) robotics club at Poznań University of Technology.
+Joined [CybAiR](https://www.facebook.com/CybAiR/) robotics club and [GHOST science club](https://ghostday.pl/) at [Poznań University of Technology](https://put.poznan.pl/en).
