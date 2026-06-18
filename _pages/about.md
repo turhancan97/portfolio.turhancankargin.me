@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>Faculty of Mathematics and Computer Science</p>
     <p>Jagiellonian University</p>
-    <p>Profesora Stanisława Łojasiewicza 6</p>
+    <p>ul. Prof. S. Łojasiewicza 6</p>
     <p>30-348 Kraków, Poland</p>
 
 selected_papers: true
