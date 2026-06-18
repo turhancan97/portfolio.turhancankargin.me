@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started Bachelor of Business Administration (BBA) at Anadolu University.
+Started Bachelor of Business Administration (BBA) at [Anadolu University](https://www.anadolu.edu.tr/).
