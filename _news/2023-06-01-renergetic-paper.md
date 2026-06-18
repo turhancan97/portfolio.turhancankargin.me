@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-RENergetic paper on planning data center waste heat re-use published at the ACM e-Energy companion proceedings.
+[RENergetic](https://www.renergetic.eu/) paper on planning data center waste heat re-use published at the ACM e-Energy companion proceedings.

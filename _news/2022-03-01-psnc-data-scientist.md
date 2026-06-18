@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined the Poznań Supercomputing and Networking Center (PSNC) as a Data Scientist, working on the EU [RENergetic](https://www.renergetic.eu/) project.
+Joined the [Poznań Supercomputing and Networking Center (PSNC)](https://www.psnc.pl/) as a Data Scientist, working on the EU [RENergetic](https://www.renergetic.eu/) project.

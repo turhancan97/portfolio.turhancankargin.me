@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Concluded my role as Data Scientist at the Poznań Supercomputing and Networking Center (PSNC) to focus on PhD research.
+Concluded my role as Data Scientist at the [Poznań Supercomputing and Networking Center (PSNC)](https://www.psnc.pl/) to focus on PhD research.

@@ -31,7 +31,7 @@ latest_posts:
 
 Turhan Can Kargin is a PhD researcher at the [Group of Machine Learning Research (GMUM)](https://gmum.net/), Jagiellonian University, supervised by [Bartosz Zieliński](https://bartoszzielinski.github.io/). His research focuses on self-supervised learning, spatial intelligence in visual foundation models, and robotics — particularly continuum robot control with reinforcement learning.
 
-He has published on spatial reasoning benchmarks, reinforcement learning for continuum robots, and energy-efficient computing. Previously, he worked as a data scientist at the Poznan Supercomputing and Networking Center (PSNC), contributing to the EU RENergetic project and applied machine learning for energy systems.
+He has published on spatial reasoning benchmarks, reinforcement learning for continuum robots, and energy-efficient computing. Previously, he worked as a data scientist at the [Poznań Supercomputing and Networking Center (PSNC)](https://www.psnc.pl/), contributing to the EU [RENergetic](https://www.renergetic.eu/) project and applied machine learning for energy systems.
 
 {::nomarkdown}
 
