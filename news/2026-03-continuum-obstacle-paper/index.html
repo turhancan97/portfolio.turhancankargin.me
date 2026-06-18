@@ -11,7 +11,7 @@
 ",
         "headline": "2026 03 Continuum Obstacle Paper",
         
-        "sameAs": ["https://scholar.google.com/citations?user=a2HFeq0AAAAJ","https://orcid.org/0000-0002-6751-4773","https://github.com/turhancan97","https://www.linkedin.com/in/turhancankargin","https://twitter.com/turhancan97","https://medium.com/@turhancankargin","https://www.kaggle.com/turhancankargin"],
+        "sameAs": [null,"https://scholar.google.com/citations?user=a2HFeq0AAAAJ","https://orcid.org/0000-0002-6751-4773","https://github.com/turhancan97","https://www.linkedin.com/in/turhancankargin","https://twitter.com/turhancan97","https://medium.com/@turhancankargin","https://www.kaggle.com/turhancankargin"],
         
         "name": "Turhan Can Kargin",
         "@context": "https://schema.org"
@@ -245,6 +245,13 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/turkish-super-league-football-teams/";
             },},{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/assets/rendercv/rendercv_output/turhan_can_kargin_cv.pdf", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
