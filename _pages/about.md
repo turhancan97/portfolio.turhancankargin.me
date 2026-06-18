@@ -29,9 +29,11 @@ latest_posts:
   enabled: false
 ---
 
-Turhan Can Kargin is a PhD researcher at the [Group of Machine Learning Research (GMUM)](https://gmum.net/), Jagiellonian University, supervised by [Bartosz Zieliński](https://bartoszzielinski.github.io/). His research focuses on self-supervised learning, spatial intelligence in visual foundation models, and robotics — particularly continuum robot control with reinforcement learning.
+Turhan Can Kargın is a PhD Researcher at the [Group of Machine Learning Research (GMUM)](https://gmum.net/) at Jagiellonian University, supervised by [Prof. Bartosz Zieliński](https://bartoszzielinski.github.io/). He drives research at the intersection of self-supervised learning, spatial intelligence in visual foundation models, and robotics.
 
-He has published on spatial reasoning benchmarks, reinforcement learning for continuum robots, and energy-efficient computing. Previously, he worked as a data scientist at the [Poznań Supercomputing and Networking Center (PSNC)](https://www.psnc.pl/), contributing to the EU [RENergetic](https://www.renergetic.eu/) project and applied machine learning for energy systems.
+He has authored multiple publications advancing spatial reasoning benchmarks, reinforcement learning for robotics, and energy-efficient computing methodologies.
+
+Previously, as a Data Scientist at the [Poznań Supercomputing and Networking Center (PSNC)](https://www.psnc.pl/), he developed applied machine learning solutions for energy systems within the EU-funded [RENergetic](https://www.renergetic.eu/) project. He further broadened his research scope by executing two Erasmus+ internships: engineering AI models for robotic object picking at the [University of Catania](https://www.unict.it/en) (supervised by [Prof. Giovanni Muscato](https://sites.google.com/site/muscatopersonalpage/robotics) and [Prof. Dario Calogero Guastella](https://scholar.google.com/citations?user=TojZzR8AAAAJ&hl=it)), and clustering single-cell RNA sequencing data at the [Silesian University of Technology](https://www.polsl.pl/en) (supervised by [Prof. Michal Marczyk](https://scholar.google.com/citations?user=mL-nyRAAAAAJ&hl=en)).
 
 {::nomarkdown}
 
