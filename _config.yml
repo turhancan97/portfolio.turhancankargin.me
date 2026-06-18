@@ -91,7 +91,8 @@ posts_in_search: false
 bib_search: true
 
 # Dimensions
-max_width: 930px
+# Theme colors live in assets/css/theme-overrides.css (injected via head.liquid max_width slot).
+max_width: '930px; } @import url("/assets/css/theme-overrides.css"); :root { --max-content-width: 930px'
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org

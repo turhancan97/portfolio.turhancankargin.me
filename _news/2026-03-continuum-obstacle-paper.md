@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper on reinforcement learning-based obstacle avoidance for continuum robots accepted in *Archives of Control Sciences*.
+Paper on reinforcement learning-based obstacle avoidance for continuum robots accepted in _Archives of Control Sciences_.
