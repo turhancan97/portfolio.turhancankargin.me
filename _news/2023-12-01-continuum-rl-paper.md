@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper on a reinforcement learning approach for continuum robot control published in the _Journal of Intelligent & Robotic Systems_.
+[Paper on a reinforcement learning approach for continuum robot control](https://link.springer.com/10.1007/s10846-023-02003-0) published in the [_Journal of Intelligent & Robotic Systems_](https://link.springer.com/10.1007/s10846-023-02003-0).

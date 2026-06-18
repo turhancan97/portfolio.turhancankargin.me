@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper on DDPG-based reinforcement learning for controlling a spatial three-section continuum robot published in _Franklin Open_.
+[Paper on DDPG-based reinforcement learning for controlling a spatial three-section continuum robot](https://doi.org/10.1016/j.fraope.2024.100077) published in [_Franklin Open_](https://doi.org/10.1016/j.fraope.2024.100077).

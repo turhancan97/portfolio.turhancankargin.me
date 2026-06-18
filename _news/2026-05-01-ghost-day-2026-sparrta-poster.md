@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented a poster on SpaRRTa at [GHOST Day: Applied Machine Learning Conference](https://ghostday.pl/) in Poznań.
+Presented a poster on [SpaRRTa](https://arxiv.org/abs/2601.11729) at [GHOST Day: Applied Machine Learning Conference](https://ghostday.pl/) in Poznań.

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-SpaRRTa preprint released on [arXiv](https://arxiv.org/abs/2601.11729) — a synthetic benchmark for evaluating spatial intelligence in visual foundation models. [Project page](https://sparrta.gmum.net/)
+[SpaRRTa](https://arxiv.org/abs/2601.11729) preprint released on [arXiv](https://arxiv.org/abs/2601.11729) — a synthetic benchmark for evaluating spatial intelligence in visual foundation models. [Project page](https://sparrta.gmum.net/)
