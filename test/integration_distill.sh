@@ -1,11 +1,15 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+source "$(dirname "$0")/fixture_posts.sh"
+install_fixture_posts "2018-12-22-distill.md"
+
 tmp_dir="$(mktemp -d)"
 tmp_override="${tmp_dir}/distill-override.yml"
 tmp_site="${tmp_dir}/site"
 
 cleanup() {
+  remove_fixture_posts
   rm -rf "${tmp_dir}"
 }
 trap cleanup EXIT
