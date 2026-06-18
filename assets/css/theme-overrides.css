@@ -13,3 +13,19 @@ html[data-theme="dark"] {
   --global-divider-color: #404040;
   --global-card-bg: #212529;
 }
+
+/* About page: pull profile photo up beside the title (not only beside bio text). */
+@media (min-width: 576px) {
+  .post article .profile.float-right {
+    margin-top: -6rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .post article .profile.float-right {
+    float: none !important;
+    margin: 0 auto 1.5rem;
+    max-width: 280px;
+    text-align: center;
+  }
+}
