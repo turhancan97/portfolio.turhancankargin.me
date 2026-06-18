@@ -4,8 +4,7 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 4
-cv_pdf: /assets/rendercv/rendercv_output/turhan_can_kargin_cv.pdf
-cv_format: rendercv
+cv_format: jsonresume
 description: Curriculum vitae of Turhan Can Kargin.
 toc:
   sidebar: left
