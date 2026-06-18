@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - turhancan97
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - gmum/SpaRRTa
+  - turhancan97/explainable_individual_reidentification
+  - turhancan97/cell_size
+  - turhancan97/EchoDraft

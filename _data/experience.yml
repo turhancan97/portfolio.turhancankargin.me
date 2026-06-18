@@ -48,6 +48,7 @@ work:
 
   - title: Mandatory Internship & Graduation Project
     organization: Tescom UPS
+    org_url: https://www.linkedin.com/company/tescom-ups
     location: Izmir, Turkey
     period: Sep 2019 – Sep 2020
     image: assets/img/experience/tescom.png
@@ -57,6 +58,7 @@ work:
 
   - title: Part-Time Working Student Engineer
     organization: Deutz Service Group ASM
+    org_url: https://www.grup-ex.com/en/about-2/
     location: Izmir, Turkey
     period: Dec 2019 – Mar 2020
     image: assets/img/experience/asm.png
@@ -65,6 +67,7 @@ work:
 
   - title: Mandatory Internship
     organization: Elpro Energy
+    org_url: https://elpro.com.tr/
     location: Izmir, Turkey
     period: Aug – Sep 2019
     image: assets/img/experience/elpro.png
@@ -74,6 +77,7 @@ work:
 
   - title: Optional Internship
     organization: Maselmak Engineering
+    org_url: https://www.maselmak.com/
     location: Ankara, Turkey
     period: Jul – Aug 2017
     image: assets/img/experience/maselmak.jpg
