@@ -10,6 +10,7 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Turhan Can Kargin is a PhD researcher in machine learning and robotics, working on self-supervised learning and spatial intelligence.
 footer_text: >
+  <link rel="stylesheet" href="/assets/css/theme-overrides.css">
   &copy; Turhan Can Kargin.
   <a href="https://unsplash.com/@tkargin" target="_blank" rel="noopener">Photos</a> &middot;
   <a href="https://www.instagram.com/tkargin.ai_art/" target="_blank" rel="noopener">AI Images</a> &middot;
@@ -91,8 +92,7 @@ posts_in_search: false
 bib_search: true
 
 # Dimensions
-# Theme colors live in assets/css/theme-overrides.css (injected via head.liquid max_width slot).
-max_width: '930px; } @import url("/assets/css/theme-overrides.css"); :root { --max-content-width: 930px'
+max_width: 930px
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
