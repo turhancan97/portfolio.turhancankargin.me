@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started graduation project at Tescom UPS, supported by **TÜBİTAK 2209B** and industrial partner Tescom Elektronik A.Ş.
+Started graduation project at [Tescom Elektronik A.Ş.](https://www.tescom-ups.com/tr/) (Tescom UPS), supported by **TÜBİTAK 2209B**.
