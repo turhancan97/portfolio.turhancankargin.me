@@ -1,0 +1,8 @@
+---
+layout: post
+date: 2022-09-01 09:00:00+0300
+inline: true
+related_posts: false
+---
+
+Joined [CybAiR](https://www.facebook.com/CybAiR/) robotics club at Poznań University of Technology.
