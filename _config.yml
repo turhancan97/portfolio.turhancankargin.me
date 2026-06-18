@@ -326,8 +326,20 @@ jekyll-archives:
       tags: "/blog/:type/:name/"
       categories: "/blog/:type/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: [
+    machine-learning,
+    deep-learning,
+    artificial-intelligence,
+    robotics,
+    robotik,
+    reinforcement-learning,
+    computer-vision,
+    data-science,
+    neuroscience,
+    wordpress,
+    medium,
+  ] # tags shown on the blog page; use slug-style names that match syndicated posts
+display_categories: [external-posts] # matches external_sources categories for WordPress and Medium
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
