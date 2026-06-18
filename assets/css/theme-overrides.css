@@ -189,3 +189,312 @@ html[data-theme="dark"] .projects .project-item:hover .card.hoverable {
 .projects .project-card-link:hover .card-title {
   color: var(--global-theme-color);
 }
+
+/* Experience page */
+.experience-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.5rem;
+  margin: 1.25rem 0 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .experience-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.experience-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.85rem;
+  background-color: var(--global-card-bg);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.experience-card-media {
+  aspect-ratio: 16 / 7;
+  overflow: hidden;
+  background-color: color-mix(in srgb, var(--global-divider-color) 20%, var(--global-card-bg));
+}
+
+.experience-card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  padding: 0.75rem;
+}
+
+.experience-card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  padding: 1.1rem 1.25rem 1.25rem;
+}
+
+.experience-card-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.experience-card-meta {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 0.85rem;
+}
+
+.experience-card-period {
+  font-weight: 600;
+  color: var(--global-theme-color);
+}
+
+.experience-card-list {
+  margin: 0;
+  padding-left: 1.15rem;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.experience-card-list li + li {
+  margin-top: 0.35rem;
+}
+
+.volunteer-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.25rem;
+  margin: 1.25rem 0 0.5rem;
+}
+
+@media (min-width: 576px) {
+  .volunteer-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 992px) {
+  .volunteer-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.volunteer-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.85rem;
+  background-color: var(--global-card-bg);
+}
+
+.volunteer-card-media {
+  height: 8.5rem;
+  overflow: hidden;
+  background-color: color-mix(in srgb, var(--global-divider-color) 15%, var(--global-card-bg));
+}
+
+.volunteer-card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.volunteer-card-body {
+  padding: 1rem 1.1rem 1.15rem;
+}
+
+.volunteer-card-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.volunteer-card-org {
+  font-size: 0.9rem;
+  color: color-mix(in srgb, var(--global-text-color, #212529) 75%, transparent);
+  margin-bottom: 0.55rem;
+}
+
+.volunteer-card-text {
+  font-size: 0.92rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Education page */
+.education-timeline {
+  position: relative;
+  margin: 1.5rem 0 2.5rem;
+  padding-left: 1.5rem;
+  border-left: 2px solid color-mix(in srgb, var(--global-theme-color) 35%, var(--global-divider-color));
+}
+
+.education-entry {
+  position: relative;
+  margin-bottom: 1.75rem;
+}
+
+.education-entry:last-child {
+  margin-bottom: 0;
+}
+
+.education-entry-marker {
+  position: absolute;
+  left: calc(-1.5rem - 7px);
+  top: 1.35rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--global-theme-color);
+  box-shadow: 0 0 0 4px var(--global-card-bg);
+}
+
+.education-entry-card {
+  overflow: hidden;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.85rem;
+  background-color: var(--global-card-bg);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+}
+
+.education-entry-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 6.75rem;
+  padding: 1rem 1.5rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+html[data-theme="dark"] .education-entry-media {
+  background-color: #f4f6f8;
+}
+
+.education-entry-media img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: min(100%, 22rem);
+  max-height: 4.75rem;
+  object-fit: contain;
+  object-position: center;
+}
+
+.education-entry-media--large {
+  min-height: 8rem;
+  padding: 1.1rem 1.25rem;
+}
+
+.education-entry-media--large img {
+  max-width: min(100%, 26rem);
+  max-height: 6.25rem;
+}
+
+.education-entry-body {
+  padding: 1rem 1.2rem 1.2rem;
+}
+
+.education-entry-period {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--global-theme-color);
+  margin-bottom: 0.45rem;
+}
+
+.education-entry-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.education-entry-degree {
+  font-size: 0.98rem;
+  font-weight: 500;
+  margin-bottom: 0.65rem;
+}
+
+.education-entry-list {
+  margin: 0;
+  padding-left: 1.15rem;
+  font-size: 0.94rem;
+  line-height: 1.55;
+}
+
+.education-entry-list li + li {
+  margin-top: 0.3rem;
+}
+
+.mooc-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .mooc-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 992px) {
+  .mooc-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.mooc-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.75rem;
+  background-color: var(--global-card-bg);
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.mooc-card:hover {
+  transform: translateY(-3px);
+  border-color: color-mix(in srgb, var(--global-theme-color) 35%, var(--global-divider-color));
+  box-shadow: 0 10px 20px rgba(13, 115, 119, 0.12);
+  text-decoration: none;
+  color: inherit;
+}
+
+.mooc-card-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5.5rem;
+  padding: 0.85rem;
+  background-color: color-mix(in srgb, var(--global-divider-color) 12%, var(--global-card-bg));
+}
+
+.mooc-card-media img {
+  max-width: 100%;
+  max-height: 3.25rem;
+  object-fit: contain;
+}
+
+.mooc-card-title {
+  flex: 1 1 auto;
+  margin: 0;
+  padding: 0.75rem 0.85rem 0.9rem;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  text-align: center;
+  font-weight: 600;
+}
