@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Completed optional internship at Maselmak Engineering (electrical panel design, PLC).
+Started an optional engineering internship at Maselmak Engineering on electrical panel design and PLC programming.
