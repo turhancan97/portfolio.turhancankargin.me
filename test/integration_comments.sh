@@ -1,11 +1,17 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+source "$(dirname "$0")/fixture_posts.sh"
+install_fixture_posts \
+  "2015-10-20-disqus-comments.md" \
+  "2022-12-10-giscus-comments.md"
+
 tmp_dir="$(mktemp -d)"
 tmp_override="${tmp_dir}/comments-test-override.yml"
 tmp_site="${tmp_dir}/site"
 
 cleanup() {
+  remove_fixture_posts
   rm -rf "${tmp_dir}"
 }
 trap cleanup EXIT
