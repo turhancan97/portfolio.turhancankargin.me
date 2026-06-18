@@ -1,3 +1,59 @@
 "zielinski":
   - firstname: ["Bartosz", "B."]
     url: https://bartoszzielinski.github.io/
+
+"kolota":
+  - firstname: ["Jakub", "J."]
+    url: https://sin.put.poznan.pl/people/details/jakub.kolota
+
+"jasinski":
+  - firstname: ["Wojciech", "W."]
+    url: https://openreview.net/profile?id=~Wojciech_Jasiński1
+
+"pardyl":
+  - firstname: ["Adam", "A."]
+    url: https://adam.pardyl.com/
+
+"przewiezlikowski":
+  - firstname: ["Marcin", "M."]
+    url: https://mprzewie.github.io/
+
+"djeffal":
+  - firstname: ["Selman", "S."]
+    url: https://enp-constantine.dz/departement-genie-mecanique/enseignants-chercheurs-departement-genie-mecanique-2/dr-djeffal-selman/
+
+"morakchi":
+  - firstname: ["Mohamed Razi", "Mohamed", "M. R."]
+    url: https://www.linkedin.com/in/mohamed-razi-morakchi-9a05b6156
+
+"ghoul":
+  - firstname: ["Abdelhamid", "A."]
+    url: https://www.ltu.se/en/staff/a/abdelhamid-ghoul
+
+"adamski":
+  - firstname: ["Jakub", "J."]
+    url: https://jjacob.xyz/
+
+"gorzenski":
+  - firstname: ["Radosław", "Radoslaw", "R."]
+    url: https://sin.put.poznan.pl/people/details/radoslaw.gorzenski
+
+"malewski":
+  - firstname: ["Łukasz", "Lukasz", "L."]
+    url: https://sin.put.poznan.pl/people/details/lukasz.malewski
+
+"oleksiak":
+  - firstname: ["Ariel", "A."]
+    url: https://scholar.google.com/citations?user=pG3xhskAAAAJ
+
+"sidorski":
+  - firstname: ["Franciszek", "F."]
+    url: https://sin.put.poznan.pl/people/details/franciszek.sidorski
+
+"deveci":
+  - firstname: ["Fırat", "Firat", "F."]
+    url: https://www.firatdeveci.com/
+
+"sahin":
+  - firstname: ["Savaş", "Savas", "S."]
+    url: https://eee.ikcu.edu.tr/Personel/Akademik/1054
