@@ -540,3 +540,24 @@ html[data-theme="dark"] .education-entry-media {
 }
 
 /* Hugging Face custom social icon (al-folio renders svg>image; mask for theme-aware mono icon). */
+.social .contact-icons a[href*="huggingface.co"] {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  position: relative;
+  top: 0.14em;
+  vertical-align: baseline;
+  line-height: 1;
+  background-color: var(--global-text-color);
+  -webkit-mask: url("/assets/img/social/huggingface.svg") center / contain no-repeat;
+  mask: url("/assets/img/social/huggingface.svg") center / contain no-repeat;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.social .contact-icons a[href*="huggingface.co"]:hover {
+  background-color: var(--global-theme-color);
+}
+
+.social .contact-icons a[href*="huggingface.co"] svg {
+  display: none !important;
+}
