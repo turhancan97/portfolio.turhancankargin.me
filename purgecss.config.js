@@ -1,6 +1,7 @@
 module.exports = {
   content: ["_site/**/*.html", "_site/**/*.js"],
-  css: ["_site/assets/css/*.css"],
+  // Only purge the generated theme bundle; keep hand-written overrides intact.
+  css: ["_site/assets/css/main.css"],
   output: "_site/assets/css/",
   skippedContentGlobs: ["_site/assets/**/*.html"],
   safelist: [
@@ -23,5 +24,6 @@ module.exports = {
     // and page chrome (scroll-progress bar, ToC) bleeds through a zoomed image.
     "medium-zoom-overlay",
     "medium-zoom-image--opened",
+    /huggingface/,
   ],
 };
