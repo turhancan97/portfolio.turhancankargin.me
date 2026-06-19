@@ -88,7 +88,8 @@
   title: "ELIAS–ELLIS–VISMAC Winter School 2025"
   url: https://elias-ai.eu/event/ellis-vismac/
   location: Brunico, Italy
-  note: Winning team project at the school’s NVIDIA-guided project week on multimodal learning and computer vision.
+  presentation: "Procedure Understanding with Vision-Language Models"
+  note: Best Project Award — inference-only pipeline with a pre-trained VLM for procedural action-sequence prediction and dependency identification in egocentric video.
 - date_sort: 2024-11
   date: Nov, 2024
   role: Attendee
