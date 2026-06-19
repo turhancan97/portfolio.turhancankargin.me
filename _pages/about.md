@@ -52,8 +52,8 @@ Selected open-source repositories are highlighted on the [repository overview](/
     block.className = 'current-location';
     block.innerHTML =
       '<p><i class="fa-solid fa-location-dot" aria-hidden="true"></i>' +
-      '<span class="current-location-label">{{ loc.label | default: "Currently in" }}</span> ' +
-      '{{ loc.city }}, {{ loc.country }}</p>';
+      '<span class="current-location-label">{{ loc.label | default: "Currently in" }} </span>' +
+      '<span class="current-location-place">{{ loc.city }}, {{ loc.country }}</span></p>';
     const moreInfo = profile.querySelector('.more-info');
     if (moreInfo) {
       profile.insertBefore(block, moreInfo);

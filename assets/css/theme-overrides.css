@@ -76,10 +76,6 @@ html[data-theme="dark"] {
   margin-right: 0.35rem;
 }
 
-.profile .current-location-label::after {
-  content: " ";
-}
-
 /* Projects page: larger, uniform cards with consistent thumbnails and spacing. */
 .projects {
   margin-top: 0.5rem;
