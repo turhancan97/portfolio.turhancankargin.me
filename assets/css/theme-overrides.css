@@ -510,33 +510,25 @@ html[data-theme="dark"] .education-entry-media {
   font-weight: 600;
 }
 
-/* Hugging Face custom social: match monochrome font icons and baseline alignment. */
-.contact-icons a[href*="huggingface.co"] {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  vertical-align: middle;
-  color: inherit;
-}
-
-.contact-icons a[href*="huggingface.co"] img {
+/* Hugging Face custom social icon (al-folio renders svg>image; mask for theme-aware mono icon). */
+.social .contact-icons a[href*="huggingface.co"] {
+  display: inline-block;
   width: 1em;
   height: 1em;
-  margin: 0;
-  padding: 0;
-  display: block;
-  object-fit: contain;
-  filter: brightness(0);
+  position: relative;
+  top: 0.14em;
+  vertical-align: baseline;
+  line-height: 1;
+  background-color: var(--global-text-color);
+  -webkit-mask: url("/assets/img/social/huggingface.svg") center / contain no-repeat;
+  mask: url("/assets/img/social/huggingface.svg") center / contain no-repeat;
+  transition: background-color 0.2s ease-in-out;
 }
 
-.contact-icons a[href*="huggingface.co"]:hover img {
-  filter: brightness(0) opacity(0.75);
+.social .contact-icons a[href*="huggingface.co"]:hover {
+  background-color: var(--global-theme-color);
 }
 
-html[data-theme="dark"] .contact-icons a[href*="huggingface.co"] img {
-  filter: brightness(0) invert(1);
-}
-
-html[data-theme="dark"] .contact-icons a[href*="huggingface.co"]:hover img {
-  filter: brightness(0) invert(1) opacity(0.75);
+.social .contact-icons a[href*="huggingface.co"] svg {
+  display: none !important;
 }
