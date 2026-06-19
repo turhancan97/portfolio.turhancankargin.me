@@ -41,6 +41,7 @@ Selected open-source repositories are highlighted on the [repository overview](/
 
 {% assign loc = site.data.current_location %}
 {% if loc.city and loc.country %}
+
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     const profile = document.querySelector('article .profile');
@@ -61,6 +62,7 @@ Selected open-source repositories are highlighted on the [repository overview](/
     }
   });
 </script>
+
 {% endif %}
 
 <script>
