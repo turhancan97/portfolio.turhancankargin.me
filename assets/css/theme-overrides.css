@@ -59,6 +59,27 @@ html[data-theme="dark"] {
   }
 }
 
+.profile .current-location {
+  margin: 0.75rem 0 0.5rem;
+  font-family: monospace;
+  text-align: center;
+}
+
+.profile .current-location p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.profile .current-location .fa-location-dot {
+  color: var(--global-theme-color);
+  margin-right: 0.35rem;
+}
+
+.profile .current-location-label::after {
+  content: " ";
+}
+
 /* Projects page: larger, uniform cards with consistent thumbnails and spacing. */
 .projects {
   margin-top: 0.5rem;

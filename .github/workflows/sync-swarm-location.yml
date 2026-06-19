@@ -1,0 +1,40 @@
+name: Sync Swarm location
+
+on:
+  schedule:
+    # Every 2 days at 07:00 UTC — refresh "Currently in" from latest Swarm check-in
+    - cron: "0 7 */2 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-swarm-location
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Sync location from Swarm
+        env:
+          FOURSQUARE_ACCESS_TOKEN: ${{ secrets.FOURSQUARE_ACCESS_TOKEN }}
+        run: python3 bin/sync_swarm_location.py
+
+      - name: Commit and push location update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _data/current_location.yml
+          if git diff --staged --quiet; then
+            echo "No location changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: sync current location from Swarm"
+          git push
