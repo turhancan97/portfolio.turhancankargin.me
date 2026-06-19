@@ -5,6 +5,7 @@ _fixture_posts_dir="${_fixture_posts_repo_root}/test/fixtures/posts"
 _fixture_posts_installed=()
 
 install_fixture_posts() {
+  mkdir -p "${_fixture_posts_repo_root}/_posts"
   for src in "$@"; do
     cp "${_fixture_posts_dir}/${src}" "${_fixture_posts_repo_root}/_posts/${src}"
     _fixture_posts_installed+=("${src}")

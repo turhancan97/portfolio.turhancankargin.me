@@ -510,4 +510,4 @@ html[data-theme="dark"] .education-entry-media {
   font-weight: 600;
 }
 
-/* Hugging Face custom social: match monochrome font icons and baseline alignment. */
+/* Hugging Face custom social icon (al-folio renders svg>image; mask for theme-aware mono icon). */
