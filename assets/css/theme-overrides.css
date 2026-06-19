@@ -14,19 +14,48 @@ html[data-theme="dark"] {
   --global-card-bg: #212529;
 }
 
-/* About page: pull profile photo up beside the title (not only beside bio text). */
-@media (min-width: 576px) {
-  .post article .profile.float-right {
+/* About page: responsive profile + bio layout (avoid text overlapping image/address). */
+@media (min-width: 992px) {
+  .post article:has(> .profile.float-right) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(220px, 30%);
+    column-gap: 1.5rem;
+    align-items: start;
+  }
+
+  .post article:has(> .profile.float-right) > .profile.float-right {
+    grid-column: 2;
+    grid-row: 1;
+    float: none !important;
+    width: 100% !important;
     margin-top: -6rem;
+    margin-left: 0 !important;
+  }
+
+  .post article:has(> .profile.float-right) > .clearfix {
+    grid-column: 1;
+    grid-row: 1;
+    min-width: 0;
+  }
+
+  .post article:has(> .profile.float-right) > :not(.profile):not(.clearfix) {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .post article > .profile.float-right {
+    float: none !important;
+    width: auto !important;
+    max-width: 280px;
+    margin: 0 auto 1.5rem;
+    text-align: center;
   }
 }
 
 @media (max-width: 575.98px) {
-  .post article .profile.float-right {
-    float: none !important;
-    margin: 0 auto 1.5rem;
-    max-width: 280px;
-    text-align: center;
+  .post article > .profile.float-right {
+    max-width: 260px;
   }
 }
 
