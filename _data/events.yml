@@ -83,12 +83,12 @@
   location: Poznań, Poland
 
 - date_sort: 2025-01
-  date: Jan, 2025
+  date: Jan 27–31, 2025
   role: Participant — Best Project Award
-  title: "ELIAS-ELLIS-VISMAC Winter School 2025"
+  title: "ELIAS–ELLIS–VISMAC Winter School 2025"
   url: https://elias-ai.eu/event/ellis-vismac/
   location: Brunico, Italy
-
+  note: Winning team project at the school’s NVIDIA-guided project week on multimodal learning and computer vision.
 - date_sort: 2024-11
   date: Nov, 2024
   role: Attendee
