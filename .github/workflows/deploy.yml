@@ -101,6 +101,7 @@ jobs:
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
+          cp assets/css/theme-overrides.css _site/assets/css/theme-overrides.css
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
