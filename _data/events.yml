@@ -89,7 +89,7 @@
   url: https://elias-ai.eu/event/ellis-vismac/
   location: Brunico, Italy
   presentation: "Procedure Understanding with Vision-Language Models"
-  note: Best Project Award (with Zehao Wang and Alessandro Sottovia) — inference-only pipeline with a pre-trained VLM for procedural action-sequence prediction and dependency identification in egocentric video.
+  note: Best Project Award (with [Zehao Wang](https://homes.esat.kuleuven.be/~zwang/) and [Alessandro Sottovia](https://www.unibz.it/en/faculties/engineering/phd-advanced-systems-engineering/phd-students/phd/52920-alessandro-sottovia)) — inference-only pipeline with a pre-trained VLM for procedural action-sequence prediction and dependency identification in egocentric video.
 - date_sort: 2024-11
   date: Nov, 2024
   role: Attendee

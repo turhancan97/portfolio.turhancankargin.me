@@ -22,7 +22,7 @@ Conferences, summer schools, and workshops — listed newest first.
     <div class="fst-italic mt-1">{{ event.presentation }}</div>
     {% endif %}
     {% if event.note %}
-    <div class="fst-italic mt-1">{{ event.note }}</div>
+    <div class="fst-italic mt-1">{{ event.note | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>
     {% endif %}
   </li>
 {% endfor %}

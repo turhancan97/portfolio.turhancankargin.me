@@ -52,7 +52,7 @@ nav_order: 4
       {% endif %}
     </div>
     {% if award.note %}
-    <div class="fst-italic mt-1 small">{{ award.note }}</div>
+    <div class="fst-italic mt-1 small">{{ award.note | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>
     {% endif %}
   </li>
 {% endfor %}
