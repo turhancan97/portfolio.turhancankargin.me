@@ -1,0 +1,39 @@
+name: Rebuild blog syndication
+
+on:
+  schedule:
+    # Weekly on Monday at 06:00 UTC — refresh WordPress and Medium RSS feeds
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rebuild-blog-syndication
+  cancel-in-progress: false
+
+jobs:
+  trigger-rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Update syndication rebuild stamp
+        run: |
+          cat > _data/blog_syndication.yml <<EOF
+          # Updated by .github/workflows/rebuild-blog.yml to trigger site deploys.
+          # External blog posts are fetched from RSS at Jekyll build time.
+          last_rebuild_utc: "$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+          EOF
+
+      - name: Commit and push rebuild stamp
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _data/blog_syndication.yml
+          git commit -m "chore: scheduled rebuild for syndicated blog posts"
+          git push
