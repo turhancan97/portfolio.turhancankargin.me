@@ -39,6 +39,30 @@ Selected open-source repositories are highlighted on the [repository overview](/
 
 {::nomarkdown}
 
+{% assign loc = site.data.current_location %}
+{% if loc.city and loc.country %}
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const profile = document.querySelector('article .profile');
+    if (!profile || profile.querySelector('.current-location')) {
+      return;
+    }
+    const block = document.createElement('div');
+    block.className = 'current-location';
+    block.innerHTML =
+      '<p><i class="fa-solid fa-location-dot" aria-hidden="true"></i>' +
+      '<span class="current-location-label">{{ loc.label | default: "Currently in" }}</span> ' +
+      '{{ loc.city }}, {{ loc.country }}</p>';
+    const moreInfo = profile.querySelector('.more-info');
+    if (moreInfo) {
+      profile.insertBefore(block, moreInfo);
+    } else {
+      profile.appendChild(block);
+    }
+  });
+</script>
+{% endif %}
+
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     const news = document.querySelector('article .news');
