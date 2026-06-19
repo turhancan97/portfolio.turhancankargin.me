@@ -4,7 +4,7 @@
   issuer: ELIAS–ELLIS–VISMAC Winter School 2025
   issuer_url: https://elias-ai.eu/event/ellis-vismac/
   location: Brunico, Italy
-  note: For “Procedure Understanding with Vision-Language Models” — inference-only use of pre-trained VLMs to predict procedural action sequences and dependencies in egocentric video.
+  note: For “Procedure Understanding with Vision-Language Models” with Zehao Wang and Alessandro Sottovia — inference-only use of pre-trained VLMs to predict procedural action sequences and dependencies in egocentric video.
 - date_sort: 2022-10
   date: Oct 2022
   title: PUT Rector's Scholarship
