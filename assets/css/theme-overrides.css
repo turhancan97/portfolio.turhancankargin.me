@@ -605,6 +605,8 @@ ol.bibliography .col-sm-8 > .badges a {
 }
 
 ol.bibliography .col-sm-8 > .badges img {
-  height: 1.65rem;
+  display: block;
+  height: 1.1rem;
+  max-height: 1.1rem;
   width: auto;
 }
