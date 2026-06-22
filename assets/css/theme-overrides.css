@@ -578,3 +578,33 @@ html[data-theme="dark"] .education-entry-media {
 .social .contact-icons a[href*="huggingface.co"] svg {
   display: none !important;
 }
+
+/* Publications: citation/metric badges on the same row as DOI/Code/etc. buttons. */
+ol.bibliography .col-sm-8 > .links,
+ol.bibliography .col-sm-8 > .badges {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+  vertical-align: middle;
+}
+
+ol.bibliography .col-sm-8 > .links {
+  margin-right: 0.15rem;
+}
+
+ol.bibliography .col-sm-8 > .badges {
+  padding-bottom: 0;
+  margin-bottom: 0.5rem;
+}
+
+ol.bibliography .col-sm-8 > .badges a {
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
+}
+
+ol.bibliography .col-sm-8 > .badges img {
+  height: 1.65rem;
+  width: auto;
+}
