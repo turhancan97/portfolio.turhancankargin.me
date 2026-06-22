@@ -596,7 +596,7 @@ ol.bibliography .col-sm-8 > .links {
 ol.bibliography .col-sm-8 > .badges {
   padding-bottom: 0;
   margin-bottom: 0.5rem;
-  transform: translateY(2px);
+  transform: translateY(4px);
 }
 
 ol.bibliography .col-sm-8 > .badges a {
