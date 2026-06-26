@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-06-22'
+  last_updated: '2026-06-26'
 papers:
   a2HFeq0AAAAJ:0EnyYjriUFMC:
     citations: 0
     title: Reinforcement learning-based obstacle avoidance for continuum robots
     year: '2026'
   a2HFeq0AAAAJ:LkGwnXOMwfcC:
-    citations: 32
+    citations: 31
     title: A reinforcement learning approach for continuum robot control
     year: '2023'
   a2HFeq0AAAAJ:WF5omc3nYNoC:
@@ -26,6 +26,6 @@ papers:
     title: 'SpaRRTa: A Synthetic Benchmark for Evaluating Spatial Intelligence in Visual Foundation Models'
     year: '2026'
   a2HFeq0AAAAJ:roLk4NBRz8UC:
-    citations: 18
+    citations: 20
     title: DDPG-based reinforcement learning for controlling a spatial three-section continuum robot
     year: '2024'
