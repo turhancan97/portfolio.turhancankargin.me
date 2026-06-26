@@ -329,15 +329,58 @@ COUNTRY_EN_BY_CC = {
 }
 
 
-def extract_location(venue: dict) -> tuple[str, str]:
+def merge_location(list_loc: dict, detail_loc: dict) -> dict:
+    """Prefer non-empty fields from either list or detail venue.location."""
+    merged = dict(list_loc or {})
+    for key, value in (detail_loc or {}).items():
+        if value is None:
+            continue
+        if isinstance(value, str) and not value.strip():
+            continue
+        if isinstance(value, list) and not value:
+            continue
+        existing = merged.get(key)
+        if existing is None or existing == "" or existing == []:
+            merged[key] = value
+    return merged
+
+
+def merge_venue(list_venue: dict, detail_venue: dict) -> dict:
+    """Combine list + detail venue payloads; detail often omits city/country."""
+    if not list_venue:
+        return dict(detail_venue or {})
+    if not detail_venue:
+        return dict(list_venue)
+    return {
+        **list_venue,
+        **detail_venue,
+        "location": merge_location(
+            list_venue.get("location") or {},
+            detail_venue.get("location") or {},
+        ),
+    }
+
+
+def extract_location(venue: dict, *, near: str = "") -> tuple[str, str]:
     location = venue.get("location") or {}
-    city = (location.get("city") or "").strip()
+    city = (
+        (location.get("city") or location.get("town") or location.get("state") or near or "")
+        .strip()
+    )
     cc = (location.get("cc") or "").strip().upper()
     country = COUNTRY_EN_BY_CC.get(cc) or (location.get("country") or "").strip()
-    if not city and location.get("formattedAddress"):
-        parts = [part.strip() for part in location["formattedAddress"] if part and part.strip()]
+    formatted = location.get("formattedAddress")
+    if not city and formatted:
+        if isinstance(formatted, str):
+            parts = [part.strip() for part in formatted.split(",") if part.strip()]
+        elif isinstance(formatted, list):
+            parts = [str(part).strip() for part in formatted if part and str(part).strip()]
+        else:
+            parts = []
         if parts:
             city = parts[0]
+    if not city and location.get("address"):
+        city = str(location["address"]).strip()
     return city, country
 
 
@@ -405,10 +448,14 @@ def sync_location(token: str) -> dict:
             f"latest check-in is older than {MAX_AGE_DAYS} days ({checkin_at.date().isoformat()})",
         )
 
-    venue = checkin.get("venue") or {}
-    city, country = extract_location(venue)
+    venue = merge_venue(latest.get("venue") or {}, checkin.get("venue") or {})
+    near = (checkin.get("near") or latest.get("near") or "").strip()
+    city, country = extract_location(venue, near=near)
     if not city or not country:
-        return fallback_record(synced_at, "venue location is incomplete")
+        return fallback_record(
+            synced_at,
+            f"venue location is incomplete (city={city!r}, country={country!r})",
+        )
 
     print(f"Using Swarm check-in from {checkin_at.date().isoformat()}: {city}, {country}")
     return build_record(
