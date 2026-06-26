@@ -38,8 +38,9 @@ OUTPUT_FILE: str = "_data/citations.yml"
 
 def get_scholar_citations() -> None:
     """Fetch and update Google Scholar citation data."""
-    print(f"Fetching citations for Google Scholar ID: {SCHOLAR_USER_ID}")
+    print(f"Fetching citations for Google Scholar ID: {SCHOLAR_USER_ID}", flush=True)
     today = datetime.now().strftime("%Y-%m-%d")
+    existing_data = None
 
     # Check if the output file was already updated today
     if os.path.exists(OUTPUT_FILE):
@@ -51,25 +52,33 @@ def get_scholar_citations() -> None:
                 and "metadata" in existing_data
                 and "last_updated" in existing_data["metadata"]
             ):
-                print(f"Last updated on: {existing_data['metadata']['last_updated']}")
+                print(f"Last updated on: {existing_data['metadata']['last_updated']}", flush=True)
                 if existing_data["metadata"]["last_updated"] == today:
-                    print("Citations data is already up-to-date. Skipping fetch.")
+                    print("Citations data is already up-to-date. Skipping fetch.", flush=True)
                     return
         except Exception as e:
             print(
-                f"Warning: Could not read existing citation data from {OUTPUT_FILE}: {e}. The file may be missing or corrupted."
+                f"Warning: Could not read existing citation data from {OUTPUT_FILE}: {e}. The file may be missing or corrupted.",
+                flush=True,
             )
 
     citation_data = {"metadata": {"last_updated": today}, "papers": {}}
 
-    scholarly.set_timeout(15)
-    scholarly.set_retries(3)
+    scholarly.set_timeout(20)
+    scholarly.set_retries(2)
     try:
         author = scholarly.search_author_id(SCHOLAR_USER_ID)
         author_data = scholarly.fill(author)
     except Exception as e:
+        if existing_data and existing_data.get("papers"):
+            print(
+                f"Warning: Google Scholar fetch failed ({e}); keeping existing {OUTPUT_FILE}.",
+                flush=True,
+            )
+            return
         print(
-            f"Error fetching author data from Google Scholar for user ID '{SCHOLAR_USER_ID}': {e}. Please check your internet connection and Scholar user ID."
+            f"Error fetching author data from Google Scholar for user ID '{SCHOLAR_USER_ID}': {e}. Please check your internet connection and Scholar user ID.",
+            flush=True,
         )
         sys.exit(1)
 
@@ -96,7 +105,7 @@ def get_scholar_citations() -> None:
             year = pub.get("bib", {}).get("pub_year", "Unknown Year")
             citations = pub.get("num_citations", 0)
 
-            print(f"Found: {title} ({year}) - Citations: {citations}")
+            print(f"Found: {title} ({year}) - Citations: {citations}", flush=True)
 
             citation_data["papers"][pub_id] = {
                 "title": title,

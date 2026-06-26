@@ -26,9 +26,11 @@ jobs:
           ref: main
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.13"
+          cache: pip
+          cache-dependency-path: requirements.txt
 
       - name: Install dependencies
         run: |
@@ -38,20 +40,28 @@ jobs:
       - name: Run citation update script
         id: run_citation_update
         shell: bash
+        env:
+          PYTHONUNBUFFERED: "1"
         run: |
           set +e
-          start_time=$(date)
-          timeout 90 python bin/update_scholar_citations.py
+          start_time=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          timeout 240 python bin/update_scholar_citations.py
           status=$?
-          end_time=$(date)
+          end_time=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+
           if [ $status -eq 0 ]; then
             echo "succeeded=true" >> "$GITHUB_OUTPUT"
-            echo "Citation update succeeded (started at $start_time, ended at $end_time)." >> "$GITHUB_STEP_SUMMARY"
+            echo "Citation update succeeded ($start_time → $end_time)." >> "$GITHUB_STEP_SUMMARY"
+          elif [ $status -eq 124 ]; then
+            echo "succeeded=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::Scholar fetch timed out after 240s; kept existing _data/citations.yml." >> "$GITHUB_STEP_SUMMARY"
           else
             echo "succeeded=false" >> "$GITHUB_OUTPUT"
-            echo "Citation update failed with exit code $status (started at $start_time, ended at $end_time)." >> "$GITHUB_STEP_SUMMARY"
-            exit $status
+            echo "::warning::Citation update failed with exit code $status ($start_time → $end_time); kept existing _data/citations.yml." >> "$GITHUB_STEP_SUMMARY"
           fi
+
+          # Soft-fail: stale citation counts are preferable to a red workflow run.
+          exit 0
 
       - name: Commit and push if changed
         id: commit
