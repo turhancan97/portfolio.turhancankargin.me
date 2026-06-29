@@ -71,6 +71,9 @@ nav_order: 4
       <strong>{{ item.role }}</strong> —
       <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>
     </div>
+    {% if item.note %}
+    <div class="fst-italic mt-1 small">{{ item.note | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>
+    {% endif %}
   </li>
 {% endfor %}
 </ul>
