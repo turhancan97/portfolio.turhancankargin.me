@@ -18,7 +18,7 @@ async function applyNetworkStubs(page) {
 
   await page.route("**/*", (route) => {
     const url = route.request().url();
-    if (url.includes("github-readme-stats.vercel.app")) {
+    if (url.includes("github-readme-stats")) {
       route.fulfill({
         status: 200,
         contentType: "image/svg+xml",
@@ -26,7 +26,7 @@ async function applyNetworkStubs(page) {
       });
       return;
     }
-    if (url.includes("github-profile-trophy.vercel.app")) {
+    if (url.includes("github-profile-trophy")) {
       route.fulfill({
         status: 200,
         contentType: "image/svg+xml",
