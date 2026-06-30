@@ -228,6 +228,36 @@ html[data-theme="dark"] .projects .project-item:hover .card.hoverable {
   min-height: 1.75rem;
 }
 
+.projects .project-card-links {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.projects .project-card-footer a.project-link-hf {
+  display: inline-block;
+  width: 1.35rem;
+  height: 1.35rem;
+  background-color: var(--global-text-color);
+  -webkit-mask: url("/assets/img/social/huggingface.svg") center / contain no-repeat;
+  mask: url("/assets/img/social/huggingface.svg") center / contain no-repeat;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.projects .project-card-footer a.project-link-hf:hover {
+  background-color: var(--global-theme-color);
+}
+
+.projects .project-card-footer .project-link-docs {
+  font-size: 1.35rem;
+  color: var(--global-text-color);
+  transition: color 0.2s ease-in-out;
+}
+
+.projects .project-card-footer a:hover .project-link-docs {
+  color: var(--global-theme-color);
+}
+
 .projects .github-icon .gh-icon {
   font-size: 1.35rem;
 }

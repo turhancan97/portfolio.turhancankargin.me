@@ -40,12 +40,28 @@ horizontal: false
             <p class="card-text">{{ project.description }}</p>
           </div>
         </a>
-        {% if project.github %}
+        {% if project.github or project.demo or project.docs %}
         <div class="project-card-footer">
-          <div class="github-icon">
+          <div class="github-icon project-card-links">
+            {% if project.github %}
             <div class="icon" data-toggle="tooltip" title="Code Repository">
               <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
             </div>
+            {% endif %}
+            {% if project.demo %}
+            <div class="icon" data-toggle="tooltip" title="Live Demo">
+              <a href="{{ project.demo }}" class="project-link-hf" target="_blank" rel="noopener noreferrer"
+                ><span class="project-link-hf-icon" aria-hidden="true"></span
+              ></a>
+            </div>
+            {% endif %}
+            {% if project.docs %}
+            <div class="icon" data-toggle="tooltip" title="Documentation">
+              <a href="{{ project.docs }}" target="_blank" rel="noopener noreferrer"
+                ><i class="fa-solid fa-book project-link-docs" aria-hidden="true"></i
+              ></a>
+            </div>
+            {% endif %}
             {% if project.github_stars %}
             <span class="stars" data-toggle="tooltip" title="GitHub Stars">
               <i class="fa-solid fa-star"></i>
@@ -85,12 +101,28 @@ horizontal: false
             <p class="card-text">{{ project.description }}</p>
           </div>
         </a>
-        {% if project.github %}
+        {% if project.github or project.demo or project.docs %}
         <div class="project-card-footer">
-          <div class="github-icon">
+          <div class="github-icon project-card-links">
+            {% if project.github %}
             <div class="icon" data-toggle="tooltip" title="Code Repository">
               <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
             </div>
+            {% endif %}
+            {% if project.demo %}
+            <div class="icon" data-toggle="tooltip" title="Live Demo">
+              <a href="{{ project.demo }}" class="project-link-hf" target="_blank" rel="noopener noreferrer"
+                ><span class="project-link-hf-icon" aria-hidden="true"></span
+              ></a>
+            </div>
+            {% endif %}
+            {% if project.docs %}
+            <div class="icon" data-toggle="tooltip" title="Documentation">
+              <a href="{{ project.docs }}" target="_blank" rel="noopener noreferrer"
+                ><i class="fa-solid fa-book project-link-docs" aria-hidden="true"></i
+              ></a>
+            </div>
+            {% endif %}
             {% if project.github_stars %}
             <span class="stars" data-toggle="tooltip" title="GitHub Stars">
               <i class="fa-solid fa-star"></i>

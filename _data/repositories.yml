@@ -5,6 +5,7 @@ repo_description_lines_max: 2
 
 github_repos:
   - gmum/SpaRRTa
+  - turhancan97/FeatLens
   - turhancan97/explainable_individual_reidentification
   - turhancan97/cell_size
   - turhancan97/EchoDraft
