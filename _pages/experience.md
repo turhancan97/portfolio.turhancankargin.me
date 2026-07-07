@@ -78,6 +78,21 @@ nav_order: 4
 {% endfor %}
 </ul>
 
+### Peer review
+
+<ul class="service-list list-unstyled mt-3 mb-4">
+{% for item in site.data.experience.peer_review %}
+  <li class="mb-2">
+    {% if item.url %}
+    <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.venue }}</a>
+    {% else %}
+    {{ item.venue }}
+    {% endif %}
+    {% if item.type %}<span class="text-muted"> · {{ item.type }}</span>{% endif %}
+  </li>
+{% endfor %}
+</ul>
+
 ### Outreach & education
 
 <div class="volunteer-grid">

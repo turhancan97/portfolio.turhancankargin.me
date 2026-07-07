@@ -101,6 +101,11 @@ organizing:
     url: https://mlss2025.mlinpl.org/
     location: Kraków, Poland
 
+peer_review:
+  - venue: Scientific Reports
+    url: https://www.nature.com/srep/
+    type: journal
+
 volunteer:
   - title: Volunteer Instructor
     organization: Polish AI Olympiad (Olimpiada AI)
