@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-06-26'
+  last_updated: '2026-07-10'
 papers:
   a2HFeq0AAAAJ:0EnyYjriUFMC:
     citations: 0
     title: Reinforcement learning-based obstacle avoidance for continuum robots
     year: '2026'
   a2HFeq0AAAAJ:LkGwnXOMwfcC:
-    citations: 31
+    citations: 33
     title: A reinforcement learning approach for continuum robot control
     year: '2023'
   a2HFeq0AAAAJ:WF5omc3nYNoC:
