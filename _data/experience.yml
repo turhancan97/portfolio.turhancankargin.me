@@ -102,6 +102,10 @@ organizing:
     location: Kraków, Poland
 
 peer_review:
+  - venue: ACM Computing Surveys (CSUR)
+    url: https://dl.acm.org/journal/csur
+    type: journal
+
   - venue: Scientific Reports
     url: https://www.nature.com/srep/
     type: journal
