@@ -106,6 +106,10 @@ peer_review:
     url: https://www.nature.com/srep/
     type: journal
 
+  - venue: Women in Computer Vision Workshop (WiCV)
+    url: https://sites.google.com/view/wicv/
+    type: workshop
+
 volunteer:
   - title: Volunteer Instructor
     organization: Polish AI Olympiad (Olimpiada AI)
