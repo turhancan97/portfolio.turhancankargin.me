@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-10'
+  last_updated: '2026-08-24'
 papers:
   a2HFeq0AAAAJ:0EnyYjriUFMC:
     citations: 0
@@ -26,6 +26,6 @@ papers:
     title: 'SpaRRTa: A Synthetic Benchmark for Evaluating Spatial Intelligence in Visual Foundation Models'
     year: '2026'
   a2HFeq0AAAAJ:roLk4NBRz8UC:
-    citations: 19
+    citations: 20
     title: DDPG-based reinforcement learning for controlling a spatial three-section continuum robot
     year: '2024'
