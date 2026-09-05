@@ -1,7 +1,7 @@
 # Synced from Swarm via .github/workflows/sync-swarm-location.yml (bin/sync_swarm_location.py).
-city: Gosselies
-country: Belgium
+city: Esch-sur-Alzette
+country: Luxembourg
 label: Currently in
 source: swarm
-checkin_at: "2026-09-02T10:54:18Z"
-synced_at: "2026-09-03T11:47:34.180057Z"
+checkin_at: "2026-09-04T13:49:21Z"
+synced_at: "2026-09-05T10:58:27.286784Z"
