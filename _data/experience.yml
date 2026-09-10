@@ -114,6 +114,14 @@ peer_review:
     url: https://sites.google.com/view/wicv/
     type: workshop
 
+  - venue: Representations for the Physical Sciences Workshop (NeurIPS 2026)
+    url: https://representations-physical-sciences.github.io/workshop-2026/
+    type: workshop
+
+  - venue: Physical Understanding for Decision-Making Workshop (PUDM @ NeurIPS 2026)
+    url: https://sites.google.com/view/neurips-2026-workshop-pudm
+    type: workshop
+
 volunteer:
   - title: Volunteer Instructor
     organization: Polish AI Olympiad (Olimpiada AI)
