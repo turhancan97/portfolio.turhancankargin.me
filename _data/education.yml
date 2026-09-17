@@ -1,4 +1,12 @@
 degrees:
+  - period: Sep 2026 – Nov 2026
+    institution: Czech Technical University in Prague (CTU)
+    institution_url: https://www.cvut.cz/en
+    degree: Research Visit, Department of Cybernetics, Faculty of Electrical Engineering
+    image: assets/img/education/ctu.png
+    highlights:
+      - Conducting a research visit at the [Visual Recognition Group (VRG)](https://vrg.fel.cvut.cz/).
+
   - period: Sep 2024 – Present
     institution: Jagiellonian University
     institution_url: https://www.uj.edu.pl/

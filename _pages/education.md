@@ -29,7 +29,7 @@ nav_order: 5
         <p class="education-entry-degree">{{ item.degree }}</p>
         <ul class="education-entry-list">
           {% for highlight in item.highlights %}
-          <li>{{ highlight }}</li>
+          <li>{{ highlight | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
           {% endfor %}
         </ul>
       </div>
