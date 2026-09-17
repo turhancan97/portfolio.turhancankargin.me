@@ -28,7 +28,7 @@ nav_order: 4
       </p>
       <ul class="experience-card-list">
         {% for highlight in item.highlights %}
-        <li>{{ highlight }}</li>
+        <li>{{ highlight | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
         {% endfor %}
       </ul>
     </div>

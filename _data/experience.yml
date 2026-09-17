@@ -1,4 +1,15 @@
 work:
+  - title: Researcher
+    organization: Visual Recognition Group (VRG)
+    org_url: https://vrg.fel.cvut.cz/
+    location: Prague, Czech Republic
+    period: Sep – Nov 2026
+    image: assets/img/experience/vrg.png
+    highlights:
+      - Conducting a two-month research visit hosted by [Dr. Bill Psomas](https://billpsomas.github.io/) and [Associate Prof. Giorgos Tolias](https://cmp.felk.cvut.cz/~toliageo/), collaborating with the VRG team on a shared project to explore the true potential of vision foundation models.
+      - Exchanging methods and experimental findings between GMUM's ongoing work on video-based SSL and embodied spatial intelligence, and VRG's visual recognition research.
+      - Contributing to joint experiments and paper-writing efforts arising from the collaboration.
+
   - title: PhD Researcher
     organization: Group of Machine Learning Research (GMUM)
     org_url: https://gmum.net/
