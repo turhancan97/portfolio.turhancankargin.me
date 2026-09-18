@@ -121,6 +121,10 @@ peer_review:
     url: https://www.nature.com/srep/
     type: journal
 
+  - venue: Journal of Intelligent & Robotic Systems (JINT)
+    url: https://link.springer.com/journal/10846
+    type: journal
+
   - venue: Women in Computer Vision Workshop (WiCV)
     url: https://sites.google.com/view/wicv/
     type: workshop
