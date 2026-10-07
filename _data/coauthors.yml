@@ -57,3 +57,15 @@
 "sahin":
   - firstname: ["Savaş", "Savas", "S."]
     url: https://scholar.google.com/citations?user=xqsPhvsAAAAJ&hl=tr
+
+"kubaty":
+  - firstname: ["Piotr", "P."]
+    url: https://www.linkedin.com/in/piotr-kubaty/
+
+"rostovskaya":
+  - firstname: ["Ekaterina", "E."]
+    url: https://orcid.org/0000-0002-8421-1838
+
+"wierzbowska":
+  - firstname: ["Izabela", "I."]
+    url: https://www.researchgate.net/profile/Izabela-Wierzbowska
