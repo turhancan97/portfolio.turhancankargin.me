@@ -1,4 +1,11 @@
 - date_sort: 2026-10
+  date: Oct 8–10, 2026
+  role: Poster Presentation
+  title: "ML in PL Conference 2026"
+  url: https://conference.mlinpl.org/2026/
+  location: Warsaw, Poland
+
+- date_sort: 2026-10
   date: Oct 1, 2026
   role: Attendee
   title: "52nd Pattern Recognition and Computer Vision Colloquium"
