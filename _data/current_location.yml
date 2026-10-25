@@ -1,7 +1,7 @@
 # Synced from Swarm via .github/workflows/sync-swarm-location.yml (bin/sync_swarm_location.py).
-city: Krakow
+city: Kraków
 country: Poland
 label: Currently in
-source: swarm
-checkin_at: "2026-10-18T11:47:21Z"
-synced_at: "2026-10-23T12:13:24.154767Z"
+source: fallback
+checkin_at: null
+synced_at: "2026-10-25T12:09:34.835785Z"
