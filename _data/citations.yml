@@ -1,12 +1,16 @@
 metadata:
-  last_updated: '2026-10-07'
+  last_updated: '2026-11-07'
 papers:
   a2HFeq0AAAAJ:0EnyYjriUFMC:
     citations: 1
     title: Reinforcement learning-based obstacle avoidance for continuum robots
     year: '2026'
+  a2HFeq0AAAAJ:8k81kl-MbHgC:
+    citations: 0
+    title: 'WildMatch: Weakly Supervised Image Matcher Adaptation for Wildlife Re-Identification'
+    year: '2026'
   a2HFeq0AAAAJ:LkGwnXOMwfcC:
-    citations: 40
+    citations: 43
     title: A reinforcement learning approach for continuum robot control
     year: '2023'
   a2HFeq0AAAAJ:WF5omc3nYNoC:
@@ -22,10 +26,10 @@ papers:
     title: High Power Efficiency Design Approach of an LLC Resonant Converter for UPS Battery Charger Application and Battery Charge-Discharge Regression Model
     year: '2020'
   a2HFeq0AAAAJ:hqOjcs7Dif8C:
-    citations: 1
+    citations: 2
     title: 'SpaRRTa: A Synthetic Benchmark for Evaluating Spatial Intelligence in Visual Foundation Models'
     year: '2026'
   a2HFeq0AAAAJ:roLk4NBRz8UC:
-    citations: 23
+    citations: 25
     title: DDPG-based reinforcement learning for controlling a spatial three-section continuum robot
     year: '2024'
