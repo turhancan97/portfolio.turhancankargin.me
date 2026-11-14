@@ -169,10 +169,6 @@ external_sources:
     rss_url: https://medium.com/@turhancankargin/feed
     categories: [external-posts]
     tags: [medium]
-  - name: substack.com
-    rss_url: https://tkargin.substack.com/feed
-    categories: [external-posts]
-    tags: [substack]
 
 # -----------------------------------------------------------------------------
 # Newsletter
