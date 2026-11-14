@@ -124,7 +124,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Blog
-blog_description: Posts on this site, plus writings from turhancankargin.com and Medium.
+blog_description: Posts on this site, plus writings from turhancankargin.com, Medium, and Substack.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -169,6 +169,10 @@ external_sources:
     rss_url: https://medium.com/@turhancankargin/feed
     categories: [external-posts]
     tags: [medium]
+  - name: substack.com
+    rss_url: https://tkargin.substack.com/feed
+    categories: [external-posts]
+    tags: [substack]
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -338,6 +342,7 @@ display_tags: [
     neuroscience,
     wordpress,
     medium,
+    substack,
   ] # tags shown on the blog page; use slug-style names that match syndicated posts
 display_categories: [external-posts] # matches external_sources categories for WordPress and Medium
 

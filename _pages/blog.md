@@ -2,7 +2,7 @@
 layout: default
 permalink: /blog/
 title: blog
-description: Articles published here and syndicated from turhancankargin.com and Medium.
+description: Articles published here and syndicated from turhancankargin.com, Medium, and Substack.
 nav: true
 nav_order: 6
 pagination:
