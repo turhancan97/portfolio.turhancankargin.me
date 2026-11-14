@@ -31,6 +31,8 @@ latest_posts:
 
 Turhan Can Kargın is a PhD Researcher at the [Group of Machine Learning Research (GMUM)](https://gmum.net/) at Jagiellonian University, supervised by [Prof. Bartosz Zieliński](https://bartoszzielinski.github.io/). He drives research at the intersection of self-supervised learning, spatial intelligence in visual foundation models, and robotics.
 
+During his PhD, he was a visiting researcher at the [Visual Recognition Group (VRG)](https://vrg.fel.cvut.cz/), hosted by [Dr. Bill Psomas](https://billpsomas.github.io/) and [Associate Prof. Giorgos Tolias](https://cmp.felk.cvut.cz/~toliageo/) at Czech Technical University in Prague.
+
 He has authored multiple publications advancing spatial reasoning benchmarks, reinforcement learning for robotics, and energy-efficient computing methodologies.
 
 Previously, as a Data Scientist at the [Poznań Supercomputing and Networking Center (PSNC)](https://www.psnc.pl/), he developed applied machine learning solutions for energy systems within the EU-funded [RENergetic](https://www.renergetic.eu/) project. He further broadened his research scope by executing two Erasmus+ internships: engineering AI models for robotic object picking at the [University of Catania](https://www.unict.it/en) (supervised by [Prof. Giovanni Muscato](https://sites.google.com/site/muscatopersonalpage/robotics) and [Prof. Dario Calogero Guastella](https://scholar.google.com/citations?user=TojZzR8AAAAJ&hl=it)), and clustering single-cell RNA sequencing data at the [Silesian University of Technology](https://www.polsl.pl/en) (supervised by [Prof. Michal Marczyk](https://scholar.google.com/citations?user=mL-nyRAAAAAJ&hl=en)).
