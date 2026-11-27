@@ -40,7 +40,7 @@ horizontal: false
             <p class="card-text">{{ project.description }}</p>
           </div>
         </a>
-        {% if project.github or project.demo or project.docs %}
+        {% if project.github or project.demo or project.docs or project.video %}
         <div class="project-card-footer">
           <div class="github-icon project-card-links">
             {% if project.github %}
@@ -59,6 +59,13 @@ horizontal: false
             <div class="icon" data-toggle="tooltip" title="Documentation">
               <a href="{{ project.docs }}" target="_blank" rel="noopener noreferrer"
                 ><i class="fa-solid fa-book project-link-docs" aria-hidden="true"></i
+              ></a>
+            </div>
+            {% endif %}
+            {% if project.video %}
+            <div class="icon" data-toggle="tooltip" title="Video">
+              <a href="{{ project.video }}" target="_blank" rel="noopener noreferrer" aria-label="Video"
+                ><i class="fa-brands fa-youtube project-link-video" aria-hidden="true"></i
               ></a>
             </div>
             {% endif %}
@@ -101,7 +108,7 @@ horizontal: false
             <p class="card-text">{{ project.description }}</p>
           </div>
         </a>
-        {% if project.github or project.demo or project.docs %}
+        {% if project.github or project.demo or project.docs or project.video %}
         <div class="project-card-footer">
           <div class="github-icon project-card-links">
             {% if project.github %}
@@ -120,6 +127,13 @@ horizontal: false
             <div class="icon" data-toggle="tooltip" title="Documentation">
               <a href="{{ project.docs }}" target="_blank" rel="noopener noreferrer"
                 ><i class="fa-solid fa-book project-link-docs" aria-hidden="true"></i
+              ></a>
+            </div>
+            {% endif %}
+            {% if project.video %}
+            <div class="icon" data-toggle="tooltip" title="Video">
+              <a href="{{ project.video }}" target="_blank" rel="noopener noreferrer" aria-label="Video"
+                ><i class="fa-brands fa-youtube project-link-video" aria-hidden="true"></i
               ></a>
             </div>
             {% endif %}

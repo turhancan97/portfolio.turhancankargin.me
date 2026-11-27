@@ -248,13 +248,15 @@ html[data-theme="dark"] .projects .project-item:hover .card.hoverable {
   background-color: var(--global-theme-color);
 }
 
-.projects .project-card-footer .project-link-docs {
+.projects .project-card-footer .project-link-docs,
+.projects .project-card-footer .project-link-video {
   font-size: 1.35rem;
   color: var(--global-text-color);
   transition: color 0.2s ease-in-out;
 }
 
-.projects .project-card-footer a:hover .project-link-docs {
+.projects .project-card-footer a:hover .project-link-docs,
+.projects .project-card-footer a:hover .project-link-video {
   color: var(--global-theme-color);
 }
 

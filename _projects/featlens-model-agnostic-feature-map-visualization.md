@@ -3,7 +3,7 @@ layout: page
 title: "FeatLens: Model-agnostic feature-map visualization"
 description: "PCA-to-RGB feature maps from any vision model and layer — DINO, DINOv2/v3, CLIP, SigLIP, MAE, DeiT, V-JEPA, CNNs, and more via timm or Hugging Face."
 img: assets/img/projects/FeatLens_Logo.png
-importance: 5
+importance: 3
 category: research
 github: https://github.com/turhancan97/FeatLens
 redirect: https://turhancan97.github.io/FeatLens/

@@ -3,7 +3,7 @@ layout: page
 title: "LYNX APPLICATION: Eurasian Lynx Re-identification"
 description: "Production-oriented modular application for Eurasian lynx re-identification, developed in collaboration with the Wildlife Research Ecology Team, Institute of Environmental Sciences."
 img: assets/img/projects/lynx-logo.png
-importance: 3
+importance: 5
 category: research
 redirect: https://www.facebook.com/share/v/1D881T9DF9/
 ---
